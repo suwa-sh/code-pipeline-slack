@@ -1,58 +1,72 @@
+# -*- coding: utf-8 -*-
+
 import json
 import logging
-logger = logging.getLogger()
-logger.setLevel(logging.INFO)
+#logger = logging.getLogger()
+#logger.setLevel(logging.INFO)
+
 
 class CodeBuildInfo(object):
-  def __init__(self, pipeline, buildId):
-    self.pipeline = pipeline
-    self.buildId = buildId
-  
-  @staticmethod
-  def fromEvent(event):
-    logger.info(json.dumps(event, indent=2))
-    # strip off leading 'codepipeline/'
-    pipeline = event['detail']['additional-information']['initiator'][13:]
-    bid = event['detail']['build-id']
-    return CodeBuildInfo(pipeline, bid)
+    def __init__(self, pipeline, build_id):
+        self.pipeline = pipeline
+        self.buildId = build_id
+
+    @staticmethod
+    def from_event(event):
+#        logger.info(__name__)
+        # logger.info(json.dumps(event, indent=2))
+        # strip off leading 'codepipeline/'
+        pipeline = event['detail']['additional-information']['initiator'][13:]
+        bid = event['detail']['build-id']
+        return CodeBuildInfo(pipeline, bid)
 
 
 class BuildNotification(object):
-  def __init__(self, buildInfo):
-    self.buildInfo = buildInfo
-    
+    def __init__(self, build_info):
+        self.buildInfo = build_info
+
 
 class BuildInfo(object):
-  def __init__(self, executionId, pipeline):
-    self.executionId = executionId
-    self.pipeline = pipeline
+    def __init__(self, execution_id, pipeline, status):
+        self.executionId = execution_id
+        self.pipeline = pipeline
+        self.revisionInfo = status
 
-  def hasRevisionInfo(self):
-    return len(self.revisionInfo) > 0
+    def has_revision_info(self):
+#        logger.info(__name__)
+        return len(self.revisionInfo) > 0
 
-  @staticmethod
-  def pull_phase_info(event):
-    info = event['detail']['additional-information']
-    return info.get('phases')
+    @staticmethod
+    def pull_phase_info(event):
+#        logger.info(__name__)
+        info = event['detail']['additional-information']
+        return info.get('phases')
 
-  @staticmethod
-  def fromEvent(event):
-    if event['source'] == "aws.codepipeline":
-      detail = event['detail']
-      return BuildInfo(detail['execution-id'], detail['pipeline'])
-    if event['source'] == "aws.codebuild":
-      logger.info(json.dumps(event, indent=2))
-      ph = BuildInfo.pull_phase_info(event)
-      logger.info(json.dumps(ph, indent=2))
+    @staticmethod
+    def from_event(event):
+        if event['source'] == "aws.codepipeline":
+            detail = event['detail']
 
-    return None
+            stage = detail.get('stage', None)
+            state = detail.get('state', None)
+#            logger.info("{} stage={}, state={}, detail=".format(__name__, stage, state))
 
-  @staticmethod
-  def fromMessage(event):
-    fields = event['attachments'][0]['fields']
+            return BuildInfo(detail['execution-id'], detail['pipeline'], None)
 
-    executionId = fields[0]['value']
-    status = fields[1]['value']
-    pipeline = fields[1]['title']
+        # if event['source'] == "aws.codebuild":
+            # logger.info(json.dumps(event, indent=2))
+            # ph = BuildInfo.pull_phase_info(event)
+            # logger.info(json.dumps(ph, indent=2))
 
-    return BuildInfo(executionId, pipeline, status)
+        return None
+
+    @staticmethod
+    def from_message(event):
+#        logger.info(__name__)
+        fields = event['attachments'][0]['fields']
+
+        execution_id = fields[0]['value']
+        pipeline = fields[1]['title']
+        status = fields[1]['value']
+
+        return BuildInfo(execution_id, pipeline, status)

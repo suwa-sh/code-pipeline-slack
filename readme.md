@@ -29,7 +29,7 @@ Additionally, you must provide both a `SlackOAuthAccessToken` and a `SlackBotUse
 
 ## How it works
 
-We utilize [CloudWatch Events](https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/WhatIsCloudWatchEvents.html) for CodePipline and CodeBuild to get notified of all status changes.
+We utilize [CloudWatch Events](https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/WhatIsCloudWatchEvents.html) for CodePipeline and CodeBuild to get notified of all status changes.
 
 Using the notifications, as well as using the CodePipeline APIs, we are able to present a unified summary of your Pipeline and Build status.
 
