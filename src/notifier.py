@@ -55,8 +55,27 @@ def pipelineFromBuild(codeBuildInfo):
     return None, None, None
 
 
+def is_skip_codepipeline_notice(event_name):
+    if event_name == 'StartPipelineExecution':
+        return True
+    if event_name == 'PutApprovalResult':
+        # TODO 一旦無視。誰が、どんなメッセージで承認、拒否したのか通知したい。
+        return True
+    return False
+
+
+def is_skip_codebuild_notice(event_name):
+    if event_name == 'StartBuild':
+        return True
+    if event_name == 'BatchGetBuilds':
+        return True
+    return False
+
+
 def processCodePipeline(event):
     # logger.info("processCodePipeline")
+    if is_skip_codepipeline_notice(event['detail'].get('eventName')):
+        return
 
     build_info = BuildInfo.from_event(event)
 
@@ -71,8 +90,12 @@ def processCodePipeline(event):
 
     post_build_msg(builder)
 
+
 def processCodeBuild(event):
     # logger.info("processCodeBuild")
+    if is_skip_codebuild_notice(event['detail'].get('eventName')):
+        return
+
     cbi = CodeBuildInfo.from_event(event)
     (stage, pid, actionStates) = pipelineFromBuild(cbi)
 
