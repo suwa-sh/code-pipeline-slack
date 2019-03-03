@@ -1,0 +1,8 @@
+#!/bin/bash
+# required check
+echo ${DIR_BASE:?} >/dev/null
+
+readonly DIR_SRC="${DIR_BASE}/src"
+readonly DIR_DIST="${DIR_BASE}/target"
+
+readonly PATH_ENV="${DIR_BASE}/.env"
