@@ -4,7 +4,7 @@ from collections import OrderedDict
 
 import json
 import logging
-#logger = logging.getLogger()
+logger = logging.getLogger()
 #logger.setLevel(logging.INFO)
 
 
@@ -13,6 +13,7 @@ class MessageBuilder(object):
         self.buildInfo = build_info
         self.actions = []
         self.messageId = None
+        self.isClear = False
 
         if message:
             # logger.info("message: {}".format(json.dumps(message, indent=2)))
@@ -134,14 +135,34 @@ class MessageBuilder(object):
 
     def updatePipelineEvent(self, event):
         if event['detail-type'] == "CodePipeline Pipeline Execution State Change":
-            self.fields[0]['value'] = event['detail']['state']
+            state = event['detail']['state']
+            self.fields[0]['value'] = state
+            if state == 'CLEAR':
+                self.isClear = True
 
         if event['detail-type'] == "CodePipeline Stage Execution State Change":
             stage = event['detail']['stage']
             state = event['detail']['state']
+            self.updatePipelineEventStage(stage, state)
 
-            stage_info = self.findOrCreatePart('Stages')
-            stage_info['value'] = self.updateStatusInfo(stage_info['value'], stage, state)
+        if event['detail-type'] == "CodePipeline Action Execution State Change":
+            stage = event['detail']['stage']
+            state = event['detail']['state']
+            self.updatePipelineEventStage(stage, state)
+
+            action = event['detail']['action']
+            provider = event['detail']['type']['provider']
+            action_state = event['detail']['state']
+            self.updatePipelineEventAction(action, provider, action_state)
+
+
+    def updatePipelineEventStage(self, stage, state):
+        stage_info = self.findOrCreatePart('Stages')
+        stage_info['value'] = self.updateStatusInfo(stage_info['value'], stage, state)
+
+    def updatePipelineEventAction(self, action, provider, state):
+        # TODO 未実装
+        logger.info("{} action={}, provider={}, state={}".format(__name__, action, provider, state))
 
     def color(self):
         return STATE_COLORS.get(self.pipelineStatus(), '#eee')
