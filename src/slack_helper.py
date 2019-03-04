@@ -15,6 +15,10 @@ SLACK_BOT_ICON = os.getenv("SLACK_BOT_ICON", ":robot_face:")
 
 CHANNEL_CACHE = {}
 
+channel_id = os.getenv("SLACK_CHANNEL_ID", None)
+if channel_id:
+    CHANNEL_CACHE[SLACK_CHANNEL] = channel_id
+
 
 def find_channel(name):
     if name in CHANNEL_CACHE:
@@ -37,8 +41,15 @@ def find_msg(ch):
     r = sc.api_call('channels.history', channel=ch)
     if 'error' in r:
         logger.error("{} channels.history error: {}".format(__name__, r['error']))
-        return None
+        return find_private_msg(ch)
+    return r
 
+
+def find_private_msg(ch):
+    r = sc.api_call('groups.history', channel=ch)
+    if 'error' in r:
+        logger.error("{} groups.history error: {}".format(__name__, r['error']))
+        return None
     return r
 
 
