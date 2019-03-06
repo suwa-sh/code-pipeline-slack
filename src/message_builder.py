@@ -2,6 +2,8 @@
 
 from collections import OrderedDict
 
+from time import sleep
+import random
 import json
 import logging
 logger = logging.getLogger()
@@ -142,7 +144,7 @@ class MessageBuilder(object):
                 stage_dict[cur_stage] = cur_icon
 
         # 完了ステータスの場合は上書きしない
-        if not is_status_already_completed(stage_dict.get(stage)):
+        if not is_status_icon_already_completed(stage_dict.get(stage)):
             stage_dict[stage] = STATE_ICONS[status]
 
         part_format = '%s' + status_delimiter + '%s'
@@ -151,9 +153,14 @@ class MessageBuilder(object):
     def updatePipelineEvent(self, event):
         if event['detail-type'] == "CodePipeline Pipeline Execution State Change":
             state = event['detail']['state']
-            self.fields[0]['value'] = state
+            if not is_status_already_completed(self.fields[0]['value']):
+                self.fields[0]['value'] = state
+
             if state == 'STARTED':
                 self.isStarted = True
+            # 完了系ステータスの場合、同時更新をさけるために少し待つ
+            if is_status_already_completed(state):
+                sleep(random.random())
             return
 
         if event['detail-type'] == "CodePipeline Stage Execution State Change":
@@ -198,7 +205,21 @@ class MessageBuilder(object):
         ]
 
 
-def is_status_already_completed(status_icon):
+def is_status_already_completed(status):
+    if status is None:
+        return False
+
+    if status == "SUCCEEDED":
+        return True
+    if status == "FAILED":
+        return True
+    if status == "CANCELED":
+        return True
+
+    return False
+
+
+def is_status_icon_already_completed(status_icon):
     if status_icon is None:
         return False
 

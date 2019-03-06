@@ -1,2838 +1,316 @@
 [
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "execution-id": "45ec171d-f9bf-4ca9-a604-041df5a7e10c",
-            "pipeline": "twooca-CD-sandbox",
-            "version": 12,
-            "state": "STARTED"
-        },
-        "detail-type": "CodePipeline Pipeline Execution State Change",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T02:58:28Z",
-        "id": "78e9d89f-ba28-af2b-d71f-0228dc620ab1",
-        "resources": [
-            "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
-        ]
+  {
+    "account": "221443671214",
+    "region": "ap-northeast-1",
+    "detail": {
+      "execution-id": "75b34730-1e10-4d8b-8100-56203f011b5a",
+      "pipeline": "twooca-CD-sandbox",
+      "version": 12,
+      "state": "STARTED"
     },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "execution-id": "45ec171d-f9bf-4ca9-a604-041df5a7e10c",
-            "pipeline": "twooca-CD-sandbox",
-            "region": "ap-northeast-1",
-            "state": "SUCCEEDED",
-            "version": 12,
-            "action": "Source",
-            "type": {
-                "owner": "ThirdParty",
-                "category": "Source",
-                "version": "1",
-                "provider": "GitHub"
-            },
-            "stage": "Source"
-        },
-        "detail-type": "CodePipeline Action Execution State Change",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T02:58:33Z",
-        "id": "0f5e386a-15e2-8d80-b5e2-acab857bed70",
-        "resources": [
-            "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
-        ]
+    "detail-type": "CodePipeline Pipeline Execution State Change",
+    "source": "aws.codepipeline",
+    "version": "0",
+    "time": "2019-03-06T15:33:27Z",
+    "id": "d4603726-bb8b-fe3f-b463-5cea9f134cb1",
+    "resources": [
+      "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
+    ]
+  },
+  {
+    "account": "221443671214",
+    "region": "ap-northeast-1",
+    "detail": {
+      "execution-id": "75b34730-1e10-4d8b-8100-56203f011b5a",
+      "pipeline": "twooca-CD-sandbox",
+      "version": 12,
+      "state": "STARTED",
+      "stage": "Source"
     },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "execution-id": "45ec171d-f9bf-4ca9-a604-041df5a7e10c",
-            "pipeline": "twooca-CD-sandbox",
-            "version": 12,
-            "state": "STARTED",
-            "stage": "Source"
-        },
-        "detail-type": "CodePipeline Stage Execution State Change",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T02:58:28Z",
-        "id": "8c984c80-b687-8e81-a23c-03db8b3b0a7e",
-        "resources": [
-            "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
-        ]
+    "detail-type": "CodePipeline Stage Execution State Change",
+    "source": "aws.codepipeline",
+    "version": "0",
+    "time": "2019-03-06T15:33:27Z",
+    "id": "218dd009-440e-0f30-d6f8-9c1762f11e56",
+    "resources": [
+      "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
+    ]
+  },
+  {
+    "account": "221443671214",
+    "region": "ap-northeast-1",
+    "detail": {
+      "execution-id": "75b34730-1e10-4d8b-8100-56203f011b5a",
+      "pipeline": "twooca-CD-sandbox",
+      "version": 12,
+      "state": "STARTED",
+      "stage": "Approval"
     },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "execution-id": "45ec171d-f9bf-4ca9-a604-041df5a7e10c",
-            "pipeline": "twooca-CD-sandbox",
-            "region": "ap-northeast-1",
-            "state": "STARTED",
-            "version": 12,
-            "action": "Source",
-            "type": {
-                "owner": "ThirdParty",
-                "category": "Source",
-                "version": "1",
-                "provider": "GitHub"
-            },
-            "stage": "Source"
-        },
-        "detail-type": "CodePipeline Action Execution State Change",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T02:58:28Z",
-        "id": "e0591363-f9c4-ff5d-9952-4aba187a2d69",
-        "resources": [
-            "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
-        ]
+    "detail-type": "CodePipeline Stage Execution State Change",
+    "source": "aws.codepipeline",
+    "version": "0",
+    "time": "2019-03-06T15:33:32Z",
+    "id": "fc09eb2a-7f4e-3dd9-7e34-f9b00ffbde3b",
+    "resources": [
+      "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
+    ]
+  },
+  {
+    "account": "221443671214",
+    "region": "ap-northeast-1",
+    "detail": {
+      "execution-id": "75b34730-1e10-4d8b-8100-56203f011b5a",
+      "pipeline": "twooca-CD-sandbox",
+      "region": "ap-northeast-1",
+      "state": "SUCCEEDED",
+      "version": 12,
+      "action": "Source",
+      "type": {
+        "owner": "ThirdParty",
+        "category": "Source",
+        "version": "1",
+        "provider": "GitHub"
+      },
+      "stage": "Source"
     },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "project-name": "twooca-dev-build-2nd",
-            "current-phase": "QUEUED",
-            "current-phase-context": "[]",
-            "version": "1",
-            "build-id": "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e",
-            "build-status": "IN_PROGRESS",
-            "additional-information": {
-                "build-complete": false,
-                "build-start-time": "Mar 3, 2019 2:59:14 AM",
-                "logs": {
-                    "deep-link": "https://console.aws.amazon.com/cloudwatch/home?region=ap-northeast-1#logEvent:group=null;stream=null"
-                },
-                "source": {
-                    "buildspec": "buildspec.yml",
-                    "type": "CODEPIPELINE"
-                },
-                "cache": {
-                    "type": "NO_CACHE"
-                },
-                "initiator": "codepipeline/twooca-CD-sandbox",
-                "artifact": {
-                    "location": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/BuildArtif/JdkSrVs"
-                },
-                "environment": {
-                    "compute-type": "BUILD_GENERAL1_SMALL",
-                    "image": "aws/codebuild/ruby:2.5.1",
-                    "type": "LINUX_CONTAINER",
-                    "environment-variables": [],
-                    "privileged-mode": true
-                },
-                "timeout-in-minutes": 60,
-                "source-version": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/SourceArti/z46uKHN.zip",
-                "queued-timeout-in-minutes": 480,
-                "phases": [
-                    {
-                        "end-time": "Mar 3, 2019 2:59:14 AM",
-                        "start-time": "Mar 3, 2019 2:59:14 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "SUBMITTED",
-                        "duration-in-seconds": 0,
-                        "phase-context": []
-                    },
-                    {
-                        "phase-type": "QUEUED",
-                        "start-time": "Mar 3, 2019 2:59:14 AM"
-                    }
-                ]
-            }
-        },
-        "detail-type": "CodeBuild Build State Change",
-        "source": "aws.codebuild",
-        "version": "0",
-        "time": "2019-03-03T02:59:14Z",
-        "id": "259537df-0fe9-73cf-fbbb-b86601f95a7c",
-        "resources": [
-            "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e"
-        ]
+    "detail-type": "CodePipeline Action Execution State Change",
+    "source": "aws.codepipeline",
+    "version": "0",
+    "time": "2019-03-06T15:33:32Z",
+    "id": "3c112da2-d825-2087-6e24-7f56f4f9fdbe",
+    "resources": [
+      "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
+    ]
+  },
+  {
+    "account": "221443671214",
+    "region": "ap-northeast-1",
+    "detail": {
+      "execution-id": "75b34730-1e10-4d8b-8100-56203f011b5a",
+      "pipeline": "twooca-CD-sandbox",
+      "region": "ap-northeast-1",
+      "state": "STARTED",
+      "version": 12,
+      "action": "Source",
+      "type": {
+        "owner": "ThirdParty",
+        "category": "Source",
+        "version": "1",
+        "provider": "GitHub"
+      },
+      "stage": "Source"
     },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "execution-id": "45ec171d-f9bf-4ca9-a604-041df5a7e10c",
-            "pipeline": "twooca-CD-sandbox",
-            "version": 12,
-            "state": "STARTED",
-            "stage": "Build"
-        },
-        "detail-type": "CodePipeline Stage Execution State Change",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T02:59:12Z",
-        "id": "656a8eb1-2ba8-792f-198b-8871acf12e04",
-        "resources": [
-            "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
-        ]
+    "detail-type": "CodePipeline Action Execution State Change",
+    "source": "aws.codepipeline",
+    "version": "0",
+    "time": "2019-03-06T15:33:27Z",
+    "id": "256aa912-4350-3dfe-72ac-1eb248df36b9",
+    "resources": [
+      "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
+    ]
+  },
+  {
+    "account": "221443671214",
+    "region": "ap-northeast-1",
+    "detail": {
+      "execution-id": "75b34730-1e10-4d8b-8100-56203f011b5a",
+      "pipeline": "twooca-CD-sandbox",
+      "region": "ap-northeast-1",
+      "state": "STARTED",
+      "version": 12,
+      "action": "Approval",
+      "type": {
+        "owner": "AWS",
+        "category": "Approval",
+        "version": "1",
+        "provider": "Manual"
+      },
+      "stage": "Approval"
     },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "completed-phase-start": "Mar 3, 2019 2:59:37 AM",
-            "project-name": "twooca-dev-build-2nd",
-            "completed-phase": "DOWNLOAD_SOURCE",
-            "completed-phase-context": "[: ]",
-            "version": "1",
-            "build-id": "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e",
-            "completed-phase-status": "SUCCEEDED",
-            "additional-information": {
-                "build-complete": false,
-                "build-start-time": "Mar 3, 2019 2:59:14 AM",
-                "logs": {
-                    "group-name": "/aws/codebuild/twooca-dev-build-2nd",
-                    "deep-link": "https://console.aws.amazon.com/cloudwatch/home?region=ap-northeast-1#logEvent:group=/aws/codebuild/twooca-dev-build-2nd;stream=69417330-77d3-47e6-9069-9a485694962e",
-                    "stream-name": "69417330-77d3-47e6-9069-9a485694962e"
-                },
-                "source": {
-                    "buildspec": "buildspec.yml",
-                    "type": "CODEPIPELINE"
-                },
-                "cache": {
-                    "type": "NO_CACHE"
-                },
-                "initiator": "codepipeline/twooca-CD-sandbox",
-                "artifact": {
-                    "location": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/BuildArtif/JdkSrVs"
-                },
-                "environment": {
-                    "compute-type": "BUILD_GENERAL1_SMALL",
-                    "image": "aws/codebuild/ruby:2.5.1",
-                    "type": "LINUX_CONTAINER",
-                    "environment-variables": [],
-                    "privileged-mode": true
-                },
-                "timeout-in-minutes": 60,
-                "source-version": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/SourceArti/z46uKHN.zip",
-                "queued-timeout-in-minutes": 480,
-                "phases": [
-                    {
-                        "end-time": "Mar 3, 2019 2:59:14 AM",
-                        "start-time": "Mar 3, 2019 2:59:14 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "SUBMITTED",
-                        "duration-in-seconds": 0,
-                        "phase-context": []
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:16 AM",
-                        "start-time": "Mar 3, 2019 2:59:14 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "QUEUED",
-                        "duration-in-seconds": 1,
-                        "phase-context": []
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:37 AM",
-                        "start-time": "Mar 3, 2019 2:59:16 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "PROVISIONING",
-                        "duration-in-seconds": 21,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:38 AM",
-                        "start-time": "Mar 3, 2019 2:59:37 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "DOWNLOAD_SOURCE",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "phase-type": "INSTALL",
-                        "start-time": "Mar 3, 2019 2:59:38 AM"
-                    }
-                ]
-            },
-            "completed-phase-duration-seconds": 0,
-            "completed-phase-end": "Mar 3, 2019 2:59:38 AM"
-        },
-        "detail-type": "CodeBuild Build Phase Change",
-        "source": "aws.codebuild",
-        "version": "0",
-        "time": "2019-03-03T02:59:37Z",
-        "id": "52a2a172-e323-e703-e294-8aaa7a9d6721",
-        "resources": [
-            "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e"
-        ]
+    "detail-type": "CodePipeline Action Execution State Change",
+    "source": "aws.codepipeline",
+    "version": "0",
+    "time": "2019-03-06T15:33:33Z",
+    "id": "460cb688-fdb3-362c-f088-792663438db1",
+    "resources": [
+      "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
+    ]
+  },
+  {
+    "account": "221443671214",
+    "region": "ap-northeast-1",
+    "detail": {
+      "execution-id": "75b34730-1e10-4d8b-8100-56203f011b5a",
+      "pipeline": "twooca-CD-sandbox",
+      "version": 12,
+      "state": "SUCCEEDED",
+      "stage": "Source"
     },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "execution-id": "45ec171d-f9bf-4ca9-a604-041df5a7e10c",
-            "pipeline": "twooca-CD-sandbox",
-            "version": 12,
-            "state": "SUCCEEDED",
-            "stage": "Source"
+    "detail-type": "CodePipeline Stage Execution State Change",
+    "source": "aws.codepipeline",
+    "version": "0",
+    "time": "2019-03-06T15:33:32Z",
+    "id": "1b9c1bd7-4adc-0226-79a5-ec2c545aebb5",
+    "resources": [
+      "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
+    ]
+  },
+  {
+    "account": "221443671214",
+    "region": "ap-northeast-1",
+    "detail": {
+      "eventVersion": "1.05",
+      "eventID": "fc17980d-49bd-4115-8fd8-65bb2c573ed0",
+      "eventTime": "2019-03-06T15:33:27Z",
+      "requestParameters": {
+        "name": "twooca-CD-sandbox",
+        "clientRequestToken": "a507525a-c4cb-43c4-8728-d6e8070bc16c"
+      },
+      "eventType": "AwsApiCall",
+      "responseElements": {
+        "pipelineExecutionId": "75b34730-1e10-4d8b-8100-56203f011b5a"
+      },
+      "awsRegion": "ap-northeast-1",
+      "eventName": "StartPipelineExecution",
+      "userIdentity": {
+        "userName": "suwa",
+        "principalId": "AIDAIB5XAW3WD6WSLHWPS",
+        "accessKeyId": "ASIATHDYSISXEVJVPHXX",
+        "invokedBy": "signin.amazonaws.com",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2019-03-06T14:27:27Z",
+            "mfaAuthenticated": "false"
+          }
         },
-        "detail-type": "CodePipeline Stage Execution State Change",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T02:58:33Z",
-        "id": "ab0d849b-4fa3-48a9-d4bf-a17fab8a3d41",
-        "resources": [
-            "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
-        ]
+        "type": "IAMUser",
+        "arn": "arn:aws:iam::221443671214:user/suwa",
+        "accountId": "221443671214"
+      },
+      "eventSource": "codepipeline.amazonaws.com",
+      "requestID": "3c283137-ab9b-4aa7-8220-7d57710bc804",
+      "userAgent": "signin.amazonaws.com",
+      "sourceIPAddress": "111.98.107.98"
     },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "execution-id": "45ec171d-f9bf-4ca9-a604-041df5a7e10c",
-            "pipeline": "twooca-CD-sandbox",
-            "region": "ap-northeast-1",
-            "state": "SUCCEEDED",
-            "version": 12,
-            "action": "Approval",
-            "type": {
-                "owner": "AWS",
-                "category": "Approval",
-                "version": "1",
-                "provider": "Manual"
-            },
-            "stage": "Approval"
-        },
-        "detail-type": "CodePipeline Action Execution State Change",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T02:59:12Z",
-        "id": "b68e0939-6c19-f09d-a0d5-945d906073dc",
-        "resources": [
-            "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
-        ]
+    "detail-type": "AWS API Call via CloudTrail",
+    "source": "aws.codepipeline",
+    "version": "0",
+    "time": "2019-03-06T15:33:27Z",
+    "id": "971d84a1-ee2d-0db3-2312-a3acde463230",
+    "resources": []
+  },
+  {
+    "account": "221443671214",
+    "region": "ap-northeast-1",
+    "detail": {
+      "execution-id": "75b34730-1e10-4d8b-8100-56203f011b5a",
+      "pipeline": "twooca-CD-sandbox",
+      "region": "ap-northeast-1",
+      "state": "FAILED",
+      "version": 12,
+      "action": "Approval",
+      "type": {
+        "owner": "AWS",
+        "category": "Approval",
+        "version": "1",
+        "provider": "Manual"
+      },
+      "stage": "Approval"
     },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "completed-phase-start": "Mar 3, 2019 2:59:14 AM",
-            "project-name": "twooca-dev-build-2nd",
-            "completed-phase": "SUBMITTED",
-            "completed-phase-context": "[]",
-            "version": "1",
-            "build-id": "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e",
-            "completed-phase-status": "SUCCEEDED",
-            "additional-information": {
-                "build-complete": false,
-                "build-start-time": "Mar 3, 2019 2:59:14 AM",
-                "logs": {
-                    "deep-link": "https://console.aws.amazon.com/cloudwatch/home?region=ap-northeast-1#logEvent:group=null;stream=null"
-                },
-                "source": {
-                    "buildspec": "buildspec.yml",
-                    "type": "CODEPIPELINE"
-                },
-                "cache": {
-                    "type": "NO_CACHE"
-                },
-                "initiator": "codepipeline/twooca-CD-sandbox",
-                "artifact": {
-                    "location": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/BuildArtif/JdkSrVs"
-                },
-                "environment": {
-                    "compute-type": "BUILD_GENERAL1_SMALL",
-                    "image": "aws/codebuild/ruby:2.5.1",
-                    "type": "LINUX_CONTAINER",
-                    "environment-variables": [],
-                    "privileged-mode": true
-                },
-                "timeout-in-minutes": 60,
-                "source-version": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/SourceArti/z46uKHN.zip",
-                "queued-timeout-in-minutes": 480,
-                "phases": [
-                    {
-                        "end-time": "Mar 3, 2019 2:59:14 AM",
-                        "start-time": "Mar 3, 2019 2:59:14 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "SUBMITTED",
-                        "duration-in-seconds": 0,
-                        "phase-context": []
-                    },
-                    {
-                        "phase-type": "QUEUED",
-                        "start-time": "Mar 3, 2019 2:59:14 AM"
-                    }
-                ]
-            },
-            "completed-phase-duration-seconds": 0,
-            "completed-phase-end": "Mar 3, 2019 2:59:14 AM"
-        },
-        "detail-type": "CodeBuild Build Phase Change",
-        "source": "aws.codebuild",
-        "version": "0",
-        "time": "2019-03-03T02:59:14Z",
-        "id": "6fbfe644-aec2-4196-4ff3-d478b829337a",
-        "resources": [
-            "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e"
-        ]
+    "detail-type": "CodePipeline Action Execution State Change",
+    "source": "aws.codepipeline",
+    "version": "0",
+    "time": "2019-03-06T15:34:13Z",
+    "id": "099fabdd-a472-593a-4317-cca38ba0349d",
+    "resources": [
+      "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
+    ]
+  },
+  {
+    "account": "221443671214",
+    "region": "ap-northeast-1",
+    "detail": {
+      "execution-id": "75b34730-1e10-4d8b-8100-56203f011b5a",
+      "pipeline": "twooca-CD-sandbox",
+      "version": 12,
+      "state": "FAILED"
     },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "execution-id": "45ec171d-f9bf-4ca9-a604-041df5a7e10c",
-            "pipeline": "twooca-CD-sandbox",
-            "region": "ap-northeast-1",
-            "state": "STARTED",
-            "version": 12,
-            "action": "Build",
-            "type": {
-                "owner": "AWS",
-                "category": "Build",
-                "version": "1",
-                "provider": "CodeBuild"
-            },
-            "stage": "Build"
-        },
-        "detail-type": "CodePipeline Action Execution State Change",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T02:59:13Z",
-        "id": "6ced4f9c-767f-f77f-d20c-8e7ce5c92cee",
-        "resources": [
-            "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
-        ]
+    "detail-type": "CodePipeline Pipeline Execution State Change",
+    "source": "aws.codepipeline",
+    "version": "0",
+    "time": "2019-03-06T15:34:13Z",
+    "id": "f545f950-4350-1480-269f-06cb8cee8eac",
+    "resources": [
+      "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
+    ]
+  },
+  {
+    "account": "221443671214",
+    "region": "ap-northeast-1",
+    "detail": {
+      "execution-id": "75b34730-1e10-4d8b-8100-56203f011b5a",
+      "pipeline": "twooca-CD-sandbox",
+      "version": 12,
+      "state": "FAILED",
+      "stage": "Approval"
     },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "completed-phase-start": "Mar 3, 2019 2:59:38 AM",
-            "project-name": "twooca-dev-build-2nd",
-            "completed-phase": "INSTALL",
-            "completed-phase-context": "[: ]",
-            "version": "1",
-            "build-id": "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e",
-            "completed-phase-status": "SUCCEEDED",
-            "additional-information": {
-                "build-complete": false,
-                "build-start-time": "Mar 3, 2019 2:59:14 AM",
-                "logs": {
-                    "group-name": "/aws/codebuild/twooca-dev-build-2nd",
-                    "deep-link": "https://console.aws.amazon.com/cloudwatch/home?region=ap-northeast-1#logEvent:group=/aws/codebuild/twooca-dev-build-2nd;stream=69417330-77d3-47e6-9069-9a485694962e",
-                    "stream-name": "69417330-77d3-47e6-9069-9a485694962e"
-                },
-                "source": {
-                    "buildspec": "buildspec.yml",
-                    "type": "CODEPIPELINE"
-                },
-                "cache": {
-                    "type": "NO_CACHE"
-                },
-                "initiator": "codepipeline/twooca-CD-sandbox",
-                "artifact": {
-                    "location": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/BuildArtif/JdkSrVs"
-                },
-                "environment": {
-                    "compute-type": "BUILD_GENERAL1_SMALL",
-                    "image": "aws/codebuild/ruby:2.5.1",
-                    "type": "LINUX_CONTAINER",
-                    "environment-variables": [],
-                    "privileged-mode": true
-                },
-                "timeout-in-minutes": 60,
-                "source-version": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/SourceArti/z46uKHN.zip",
-                "queued-timeout-in-minutes": 480,
-                "phases": [
-                    {
-                        "end-time": "Mar 3, 2019 2:59:14 AM",
-                        "start-time": "Mar 3, 2019 2:59:14 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "SUBMITTED",
-                        "duration-in-seconds": 0,
-                        "phase-context": []
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:16 AM",
-                        "start-time": "Mar 3, 2019 2:59:14 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "QUEUED",
-                        "duration-in-seconds": 1,
-                        "phase-context": []
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:37 AM",
-                        "start-time": "Mar 3, 2019 2:59:16 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "PROVISIONING",
-                        "duration-in-seconds": 21,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:38 AM",
-                        "start-time": "Mar 3, 2019 2:59:37 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "DOWNLOAD_SOURCE",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:39 AM",
-                        "start-time": "Mar 3, 2019 2:59:38 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "INSTALL",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "phase-type": "PRE_BUILD",
-                        "start-time": "Mar 3, 2019 2:59:39 AM"
-                    }
-                ]
-            },
-            "completed-phase-duration-seconds": 0,
-            "completed-phase-end": "Mar 3, 2019 2:59:39 AM"
+    "detail-type": "CodePipeline Stage Execution State Change",
+    "source": "aws.codepipeline",
+    "version": "0",
+    "time": "2019-03-06T15:34:13Z",
+    "id": "0cc0f378-0251-0c55-0f91-0f8d9f3482bc",
+    "resources": [
+      "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
+    ]
+  },
+  {
+    "account": "221443671214",
+    "region": "ap-northeast-1",
+    "detail": {
+      "eventVersion": "1.05",
+      "eventID": "291321f6-7e41-43f6-818a-672cd6874840",
+      "eventTime": "2019-03-06T15:34:13Z",
+      "requestParameters": {
+        "actionName": "Approval",
+        "token": "dd0badd9-ebb8-4a39-aebb-1fef288207f4",
+        "pipelineName": "twooca-CD-sandbox",
+        "result": {
+          "status": "Rejected",
+          "summary": "test"
         },
-        "detail-type": "CodeBuild Build Phase Change",
-        "source": "aws.codebuild",
-        "version": "0",
-        "time": "2019-03-03T02:59:38Z",
-        "id": "b1e5ea31-5663-04dc-dcb0-d79ccad52642",
-        "resources": [
-            "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e"
-        ]
+        "stageName": "Approval"
+      },
+      "eventType": "AwsApiCall",
+      "responseElements": {
+        "approvedAt": "Mar 6, 2019 3:34:13 PM"
+      },
+      "awsRegion": "ap-northeast-1",
+      "eventName": "PutApprovalResult",
+      "userIdentity": {
+        "userName": "suwa",
+        "principalId": "AIDAIB5XAW3WD6WSLHWPS",
+        "accessKeyId": "ASIATHDYSISXEVJVPHXX",
+        "invokedBy": "signin.amazonaws.com",
+        "sessionContext": {
+          "attributes": {
+            "creationDate": "2019-03-06T14:27:27Z",
+            "mfaAuthenticated": "false"
+          }
+        },
+        "type": "IAMUser",
+        "arn": "arn:aws:iam::221443671214:user/suwa",
+        "accountId": "221443671214"
+      },
+      "eventSource": "codepipeline.amazonaws.com",
+      "requestID": "3e680b04-1400-4c18-825b-649f19aeb217",
+      "userAgent": "signin.amazonaws.com",
+      "sourceIPAddress": "111.98.107.98"
     },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "completed-phase-start": "Mar 3, 2019 2:59:39 AM",
-            "project-name": "twooca-dev-build-2nd",
-            "completed-phase": "PRE_BUILD",
-            "completed-phase-context": "[: ]",
-            "version": "1",
-            "build-id": "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e",
-            "completed-phase-status": "SUCCEEDED",
-            "additional-information": {
-                "build-complete": false,
-                "build-start-time": "Mar 3, 2019 2:59:14 AM",
-                "logs": {
-                    "group-name": "/aws/codebuild/twooca-dev-build-2nd",
-                    "deep-link": "https://console.aws.amazon.com/cloudwatch/home?region=ap-northeast-1#logEvent:group=/aws/codebuild/twooca-dev-build-2nd;stream=69417330-77d3-47e6-9069-9a485694962e",
-                    "stream-name": "69417330-77d3-47e6-9069-9a485694962e"
-                },
-                "source": {
-                    "buildspec": "buildspec.yml",
-                    "type": "CODEPIPELINE"
-                },
-                "cache": {
-                    "type": "NO_CACHE"
-                },
-                "initiator": "codepipeline/twooca-CD-sandbox",
-                "artifact": {
-                    "location": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/BuildArtif/JdkSrVs"
-                },
-                "environment": {
-                    "compute-type": "BUILD_GENERAL1_SMALL",
-                    "image": "aws/codebuild/ruby:2.5.1",
-                    "type": "LINUX_CONTAINER",
-                    "environment-variables": [],
-                    "privileged-mode": true
-                },
-                "timeout-in-minutes": 60,
-                "source-version": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/SourceArti/z46uKHN.zip",
-                "queued-timeout-in-minutes": 480,
-                "phases": [
-                    {
-                        "end-time": "Mar 3, 2019 2:59:14 AM",
-                        "start-time": "Mar 3, 2019 2:59:14 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "SUBMITTED",
-                        "duration-in-seconds": 0,
-                        "phase-context": []
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:16 AM",
-                        "start-time": "Mar 3, 2019 2:59:14 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "QUEUED",
-                        "duration-in-seconds": 1,
-                        "phase-context": []
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:37 AM",
-                        "start-time": "Mar 3, 2019 2:59:16 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "PROVISIONING",
-                        "duration-in-seconds": 21,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:38 AM",
-                        "start-time": "Mar 3, 2019 2:59:37 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "DOWNLOAD_SOURCE",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:39 AM",
-                        "start-time": "Mar 3, 2019 2:59:38 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "INSTALL",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:39 AM",
-                        "start-time": "Mar 3, 2019 2:59:39 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "PRE_BUILD",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "phase-type": "BUILD",
-                        "start-time": "Mar 3, 2019 2:59:39 AM"
-                    }
-                ]
-            },
-            "completed-phase-duration-seconds": 0,
-            "completed-phase-end": "Mar 3, 2019 2:59:39 AM"
-        },
-        "detail-type": "CodeBuild Build Phase Change",
-        "source": "aws.codebuild",
-        "version": "0",
-        "time": "2019-03-03T02:59:39Z",
-        "id": "3360c714-27c5-d528-944c-8f5398e6fcbf",
-        "resources": [
-            "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "instanceId": "i-0ae1a35e85956eaac",
-            "region": "ap-northeast-1",
-            "deploymentId": "d-AQ60746SX",
-            "application": "twooca",
-            "state": "SUCCESS",
-            "deploymentGroup": "twooca_pre-stg_web01",
-            "instanceGroupId": "45102cd6-8744-4379-aef6-3b08977df7c1"
-        },
-        "detail-type": "CodeDeploy Instance State-change Notification",
-        "source": "aws.codedeploy",
-        "version": "0",
-        "time": "2019-03-03T03:08:02Z",
-        "id": "c12d4e3f-08c9-e571-f69c-fc5c3db84d00",
-        "resources": [
-            "arn:aws:codedeploy:ap-northeast-1:221443671214:deploymentgroup:twooca/twooca_pre-stg_web01",
-            "arn:aws:ec2:ap-northeast-1:221443671214:instance/i-0ae1a35e85956eaac",
-            "arn:aws:codedeploy:ap-northeast-1:221443671214:application:twooca"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "region": "ap-northeast-1",
-            "deploymentId": "d-AQ60746SX",
-            "application": "twooca",
-            "state": "SUCCESS",
-            "deploymentGroup": "twooca_pre-stg_web01",
-            "instanceGroupId": "45102cd6-8744-4379-aef6-3b08977df7c1"
-        },
-        "detail-type": "CodeDeploy Deployment State-change Notification",
-        "source": "aws.codedeploy",
-        "version": "0",
-        "time": "2019-03-03T03:08:04Z",
-        "id": "e05938c9-861a-f7ac-c5d8-d40baf47252a",
-        "resources": [
-            "arn:aws:codedeploy:ap-northeast-1:221443671214:application:twooca",
-            "arn:aws:codedeploy:ap-northeast-1:221443671214:deploymentgroup:twooca/twooca_pre-stg_web01"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "execution-id": "45ec171d-f9bf-4ca9-a604-041df5a7e10c",
-            "pipeline": "twooca-CD-sandbox",
-            "region": "ap-northeast-1",
-            "state": "SUCCEEDED",
-            "version": 12,
-            "action": "web01",
-            "type": {
-                "owner": "AWS",
-                "category": "Deploy",
-                "version": "1",
-                "provider": "CodeDeploy"
-            },
-            "stage": "Deploy"
-        },
-        "detail-type": "CodePipeline Action Execution State Change",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T03:08:35Z",
-        "id": "23057653-94b8-4566-43e5-5170db4bdcc4",
-        "resources": [
-            "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "instanceId": "i-0077c67536b1e1b13",
-            "region": "ap-northeast-1",
-            "deploymentId": "d-NDA43M1SX",
-            "application": "twooca",
-            "state": "SUCCESS",
-            "deploymentGroup": "twooca_pre-stg_web02",
-            "instanceGroupId": "55941895-59d0-4dd7-bf3f-4b79f81541cd"
-        },
-        "detail-type": "CodeDeploy Instance State-change Notification",
-        "source": "aws.codedeploy",
-        "version": "0",
-        "time": "2019-03-03T03:09:41Z",
-        "id": "939a8cbe-9afb-aa8f-93d2-6da98b8270e6",
-        "resources": [
-            "arn:aws:ec2:ap-northeast-1:221443671214:instance/i-0077c67536b1e1b13",
-            "arn:aws:codedeploy:ap-northeast-1:221443671214:deploymentgroup:twooca/twooca_pre-stg_web02",
-            "arn:aws:codedeploy:ap-northeast-1:221443671214:application:twooca"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "region": "ap-northeast-1",
-            "deploymentId": "d-NDA43M1SX",
-            "application": "twooca",
-            "state": "SUCCESS",
-            "deploymentGroup": "twooca_pre-stg_web02",
-            "instanceGroupId": "55941895-59d0-4dd7-bf3f-4b79f81541cd"
-        },
-        "detail-type": "CodeDeploy Deployment State-change Notification",
-        "source": "aws.codedeploy",
-        "version": "0",
-        "time": "2019-03-03T03:09:43Z",
-        "id": "4824f967-deed-4a14-b18d-d05121b3b823",
-        "resources": [
-            "arn:aws:codedeploy:ap-northeast-1:221443671214:deploymentgroup:twooca/twooca_pre-stg_web02",
-            "arn:aws:codedeploy:ap-northeast-1:221443671214:application:twooca"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "execution-id": "45ec171d-f9bf-4ca9-a604-041df5a7e10c",
-            "pipeline": "twooca-CD-sandbox",
-            "version": 12,
-            "state": "SUCCEEDED"
-        },
-        "detail-type": "CodePipeline Pipeline Execution State Change",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T03:10:08Z",
-        "id": "87544116-7f81-5ae4-9175-d86b77d0288d",
-        "resources": [
-            "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "execution-id": "45ec171d-f9bf-4ca9-a604-041df5a7e10c",
-            "pipeline": "twooca-CD-sandbox",
-            "version": 12,
-            "state": "SUCCEEDED",
-            "stage": "Deploy"
-        },
-        "detail-type": "CodePipeline Stage Execution State Change",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T03:10:08Z",
-        "id": "2ff12212-9675-b545-c116-44a25f3384b1",
-        "resources": [
-            "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "execution-id": "45ec171d-f9bf-4ca9-a604-041df5a7e10c",
-            "pipeline": "twooca-CD-sandbox",
-            "version": 12,
-            "state": "STARTED",
-            "stage": "Approval"
-        },
-        "detail-type": "CodePipeline Stage Execution State Change",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T02:58:33Z",
-        "id": "59463ac4-cb55-8f78-9db5-f284260ba63d",
-        "resources": [
-            "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "execution-id": "45ec171d-f9bf-4ca9-a604-041df5a7e10c",
-            "pipeline": "twooca-CD-sandbox",
-            "region": "ap-northeast-1",
-            "state": "STARTED",
-            "version": 12,
-            "action": "Approval",
-            "type": {
-                "owner": "AWS",
-                "category": "Approval",
-                "version": "1",
-                "provider": "Manual"
-            },
-            "stage": "Approval"
-        },
-        "detail-type": "CodePipeline Action Execution State Change",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T02:58:34Z",
-        "id": "9e9bbdaa-f228-5190-af1f-11549a8bff57",
-        "resources": [
-            "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "completed-phase-start": "Mar 3, 2019 2:59:14 AM",
-            "project-name": "twooca-dev-build-2nd",
-            "completed-phase": "QUEUED",
-            "completed-phase-context": "[]",
-            "version": "1",
-            "build-id": "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e",
-            "completed-phase-status": "SUCCEEDED",
-            "additional-information": {
-                "build-complete": false,
-                "build-start-time": "Mar 3, 2019 2:59:14 AM",
-                "logs": {
-                    "deep-link": "https://console.aws.amazon.com/cloudwatch/home?region=ap-northeast-1#logEvent:group=null;stream=null"
-                },
-                "source": {
-                    "buildspec": "buildspec.yml",
-                    "type": "CODEPIPELINE"
-                },
-                "cache": {
-                    "type": "NO_CACHE"
-                },
-                "initiator": "codepipeline/twooca-CD-sandbox",
-                "artifact": {
-                    "location": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/BuildArtif/JdkSrVs"
-                },
-                "environment": {
-                    "compute-type": "BUILD_GENERAL1_SMALL",
-                    "image": "aws/codebuild/ruby:2.5.1",
-                    "type": "LINUX_CONTAINER",
-                    "environment-variables": [],
-                    "privileged-mode": true
-                },
-                "timeout-in-minutes": 60,
-                "source-version": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/SourceArti/z46uKHN.zip",
-                "queued-timeout-in-minutes": 480,
-                "phases": [
-                    {
-                        "end-time": "Mar 3, 2019 2:59:14 AM",
-                        "start-time": "Mar 3, 2019 2:59:14 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "SUBMITTED",
-                        "duration-in-seconds": 0,
-                        "phase-context": []
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:16 AM",
-                        "start-time": "Mar 3, 2019 2:59:14 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "QUEUED",
-                        "duration-in-seconds": 1,
-                        "phase-context": []
-                    },
-                    {
-                        "phase-type": "PROVISIONING",
-                        "start-time": "Mar 3, 2019 2:59:16 AM"
-                    }
-                ]
-            },
-            "completed-phase-duration-seconds": 1,
-            "completed-phase-end": "Mar 3, 2019 2:59:16 AM"
-        },
-        "detail-type": "CodeBuild Build Phase Change",
-        "source": "aws.codebuild",
-        "version": "0",
-        "time": "2019-03-03T02:59:14Z",
-        "id": "7afa6299-b411-4bc0-f72e-f839680e42a7",
-        "resources": [
-            "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "execution-id": "45ec171d-f9bf-4ca9-a604-041df5a7e10c",
-            "pipeline": "twooca-CD-sandbox",
-            "version": 12,
-            "state": "SUCCEEDED",
-            "stage": "Approval"
-        },
-        "detail-type": "CodePipeline Stage Execution State Change",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T02:59:12Z",
-        "id": "ba955eee-d202-51c2-9329-a8d782a0b8a7",
-        "resources": [
-            "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "eventVersion": "1.05",
-            "eventID": "79b81563-dd6f-47ac-99d8-5786e147a032",
-            "eventTime": "2019-03-03T02:58:28Z",
-            "requestParameters": {
-                "name": "twooca-CD-sandbox",
-                "clientRequestToken": "b5f2488f-c442-487c-9dfb-85cc8ef1d903"
-            },
-            "eventType": "AwsApiCall",
-            "responseElements": {
-                "pipelineExecutionId": "45ec171d-f9bf-4ca9-a604-041df5a7e10c"
-            },
-            "awsRegion": "ap-northeast-1",
-            "eventName": "StartPipelineExecution",
-            "userIdentity": {
-                "userName": "suwa",
-                "principalId": "AIDAIB5XAW3WD6WSLHWPS",
-                "accessKeyId": "ASIATHDYSISXBL6N3443",
-                "invokedBy": "signin.amazonaws.com",
-                "sessionContext": {
-                    "attributes": {
-                        "creationDate": "2019-03-02T17:03:52Z",
-                        "mfaAuthenticated": "false"
-                    }
-                },
-                "type": "IAMUser",
-                "arn": "arn:aws:iam::221443671214:user/suwa",
-                "accountId": "221443671214"
-            },
-            "eventSource": "codepipeline.amazonaws.com",
-            "requestID": "f57aecd5-2217-4fd1-ac7f-f0b7482c0e5b",
-            "userAgent": "signin.amazonaws.com",
-            "sourceIPAddress": "111.98.107.97"
-        },
-        "detail-type": "AWS API Call via CloudTrail",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T02:58:28Z",
-        "id": "d997b929-ee4b-6d60-9261-89caa4fe1cb5",
-        "resources": []
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "completed-phase-start": "Mar 3, 2019 2:59:16 AM",
-            "project-name": "twooca-dev-build-2nd",
-            "completed-phase": "PROVISIONING",
-            "completed-phase-context": "[: ]",
-            "version": "1",
-            "build-id": "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e",
-            "completed-phase-status": "SUCCEEDED",
-            "additional-information": {
-                "build-complete": false,
-                "build-start-time": "Mar 3, 2019 2:59:14 AM",
-                "logs": {
-                    "group-name": "/aws/codebuild/twooca-dev-build-2nd",
-                    "deep-link": "https://console.aws.amazon.com/cloudwatch/home?region=ap-northeast-1#logEvent:group=/aws/codebuild/twooca-dev-build-2nd;stream=69417330-77d3-47e6-9069-9a485694962e",
-                    "stream-name": "69417330-77d3-47e6-9069-9a485694962e"
-                },
-                "source": {
-                    "buildspec": "buildspec.yml",
-                    "type": "CODEPIPELINE"
-                },
-                "cache": {
-                    "type": "NO_CACHE"
-                },
-                "initiator": "codepipeline/twooca-CD-sandbox",
-                "artifact": {
-                    "location": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/BuildArtif/JdkSrVs"
-                },
-                "environment": {
-                    "compute-type": "BUILD_GENERAL1_SMALL",
-                    "image": "aws/codebuild/ruby:2.5.1",
-                    "type": "LINUX_CONTAINER",
-                    "environment-variables": [],
-                    "privileged-mode": true
-                },
-                "timeout-in-minutes": 60,
-                "source-version": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/SourceArti/z46uKHN.zip",
-                "queued-timeout-in-minutes": 480,
-                "phases": [
-                    {
-                        "end-time": "Mar 3, 2019 2:59:14 AM",
-                        "start-time": "Mar 3, 2019 2:59:14 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "SUBMITTED",
-                        "duration-in-seconds": 0,
-                        "phase-context": []
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:16 AM",
-                        "start-time": "Mar 3, 2019 2:59:14 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "QUEUED",
-                        "duration-in-seconds": 1,
-                        "phase-context": []
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:37 AM",
-                        "start-time": "Mar 3, 2019 2:59:16 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "PROVISIONING",
-                        "duration-in-seconds": 21,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "phase-type": "DOWNLOAD_SOURCE",
-                        "start-time": "Mar 3, 2019 2:59:37 AM"
-                    }
-                ]
-            },
-            "completed-phase-duration-seconds": 21,
-            "completed-phase-end": "Mar 3, 2019 2:59:37 AM"
-        },
-        "detail-type": "CodeBuild Build Phase Change",
-        "source": "aws.codebuild",
-        "version": "0",
-        "time": "2019-03-03T02:59:16Z",
-        "id": "390d7422-b07d-39f4-1af2-f08bf8e13170",
-        "resources": [
-            "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "execution-id": "45ec171d-f9bf-4ca9-a604-041df5a7e10c",
-            "pipeline": "twooca-CD-sandbox",
-            "region": "ap-northeast-1",
-            "state": "SUCCEEDED",
-            "version": 12,
-            "action": "web02",
-            "type": {
-                "owner": "AWS",
-                "category": "Deploy",
-                "version": "1",
-                "provider": "CodeDeploy"
-            },
-            "stage": "Deploy"
-        },
-        "detail-type": "CodePipeline Action Execution State Change",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T03:10:08Z",
-        "id": "c00ec456-1687-9012-dbc7-ad6c7ba570b3",
-        "resources": [
-            "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "completed-phase-start": "Mar 3, 2019 2:59:39 AM",
-            "project-name": "twooca-dev-build-2nd",
-            "completed-phase": "BUILD",
-            "completed-phase-context": "[: ]",
-            "version": "1",
-            "build-id": "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e",
-            "completed-phase-status": "SUCCEEDED",
-            "additional-information": {
-                "build-complete": false,
-                "build-start-time": "Mar 3, 2019 2:59:14 AM",
-                "logs": {
-                    "group-name": "/aws/codebuild/twooca-dev-build-2nd",
-                    "deep-link": "https://console.aws.amazon.com/cloudwatch/home?region=ap-northeast-1#logEvent:group=/aws/codebuild/twooca-dev-build-2nd;stream=69417330-77d3-47e6-9069-9a485694962e",
-                    "stream-name": "69417330-77d3-47e6-9069-9a485694962e"
-                },
-                "source": {
-                    "buildspec": "buildspec.yml",
-                    "type": "CODEPIPELINE"
-                },
-                "cache": {
-                    "type": "NO_CACHE"
-                },
-                "initiator": "codepipeline/twooca-CD-sandbox",
-                "artifact": {
-                    "location": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/BuildArtif/JdkSrVs"
-                },
-                "environment": {
-                    "compute-type": "BUILD_GENERAL1_SMALL",
-                    "image": "aws/codebuild/ruby:2.5.1",
-                    "type": "LINUX_CONTAINER",
-                    "environment-variables": [],
-                    "privileged-mode": true
-                },
-                "timeout-in-minutes": 60,
-                "source-version": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/SourceArti/z46uKHN.zip",
-                "queued-timeout-in-minutes": 480,
-                "phases": [
-                    {
-                        "end-time": "Mar 3, 2019 2:59:14 AM",
-                        "start-time": "Mar 3, 2019 2:59:14 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "SUBMITTED",
-                        "duration-in-seconds": 0,
-                        "phase-context": []
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:16 AM",
-                        "start-time": "Mar 3, 2019 2:59:14 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "QUEUED",
-                        "duration-in-seconds": 1,
-                        "phase-context": []
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:37 AM",
-                        "start-time": "Mar 3, 2019 2:59:16 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "PROVISIONING",
-                        "duration-in-seconds": 21,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:38 AM",
-                        "start-time": "Mar 3, 2019 2:59:37 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "DOWNLOAD_SOURCE",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:39 AM",
-                        "start-time": "Mar 3, 2019 2:59:38 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "INSTALL",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:39 AM",
-                        "start-time": "Mar 3, 2019 2:59:39 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "PRE_BUILD",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:39 AM",
-                        "start-time": "Mar 3, 2019 2:59:39 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "BUILD",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "phase-type": "POST_BUILD",
-                        "start-time": "Mar 3, 2019 2:59:39 AM"
-                    }
-                ]
-            },
-            "completed-phase-duration-seconds": 0,
-            "completed-phase-end": "Mar 3, 2019 2:59:39 AM"
-        },
-        "detail-type": "CodeBuild Build Phase Change",
-        "source": "aws.codebuild",
-        "version": "0",
-        "time": "2019-03-03T02:59:39Z",
-        "id": "5e32793c-cc02-5910-935d-f99aa350ed96",
-        "resources": [
-            "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "completed-phase-start": "Mar 3, 2019 2:59:39 AM",
-            "project-name": "twooca-dev-build-2nd",
-            "completed-phase": "UPLOAD_ARTIFACTS",
-            "completed-phase-context": "[: ]",
-            "version": "1",
-            "build-id": "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e",
-            "completed-phase-status": "SUCCEEDED",
-            "additional-information": {
-                "build-complete": false,
-                "build-start-time": "Mar 3, 2019 2:59:14 AM",
-                "logs": {
-                    "group-name": "/aws/codebuild/twooca-dev-build-2nd",
-                    "deep-link": "https://console.aws.amazon.com/cloudwatch/home?region=ap-northeast-1#logEvent:group=/aws/codebuild/twooca-dev-build-2nd;stream=69417330-77d3-47e6-9069-9a485694962e",
-                    "stream-name": "69417330-77d3-47e6-9069-9a485694962e"
-                },
-                "source": {
-                    "buildspec": "buildspec.yml",
-                    "type": "CODEPIPELINE"
-                },
-                "cache": {
-                    "type": "NO_CACHE"
-                },
-                "initiator": "codepipeline/twooca-CD-sandbox",
-                "artifact": {
-                    "md5sum": "c925b4981a406516a219cbf1998ec1b2",
-                    "location": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/BuildArtif/JdkSrVs",
-                    "sha256sum": "df3964700d025f104e19f69c62c1dd7c023a29a5b2c42318d58f470589d4ae56"
-                },
-                "environment": {
-                    "compute-type": "BUILD_GENERAL1_SMALL",
-                    "image": "aws/codebuild/ruby:2.5.1",
-                    "type": "LINUX_CONTAINER",
-                    "environment-variables": [],
-                    "privileged-mode": true
-                },
-                "timeout-in-minutes": 60,
-                "source-version": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/SourceArti/z46uKHN.zip",
-                "queued-timeout-in-minutes": 480,
-                "phases": [
-                    {
-                        "end-time": "Mar 3, 2019 2:59:14 AM",
-                        "start-time": "Mar 3, 2019 2:59:14 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "SUBMITTED",
-                        "duration-in-seconds": 0,
-                        "phase-context": []
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:16 AM",
-                        "start-time": "Mar 3, 2019 2:59:14 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "QUEUED",
-                        "duration-in-seconds": 1,
-                        "phase-context": []
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:37 AM",
-                        "start-time": "Mar 3, 2019 2:59:16 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "PROVISIONING",
-                        "duration-in-seconds": 21,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:38 AM",
-                        "start-time": "Mar 3, 2019 2:59:37 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "DOWNLOAD_SOURCE",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:39 AM",
-                        "start-time": "Mar 3, 2019 2:59:38 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "INSTALL",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:39 AM",
-                        "start-time": "Mar 3, 2019 2:59:39 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "PRE_BUILD",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:39 AM",
-                        "start-time": "Mar 3, 2019 2:59:39 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "BUILD",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:39 AM",
-                        "start-time": "Mar 3, 2019 2:59:39 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "POST_BUILD",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:41 AM",
-                        "start-time": "Mar 3, 2019 2:59:39 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "UPLOAD_ARTIFACTS",
-                        "duration-in-seconds": 1,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "phase-type": "FINALIZING",
-                        "start-time": "Mar 3, 2019 2:59:41 AM"
-                    }
-                ]
-            },
-            "completed-phase-duration-seconds": 1,
-            "completed-phase-end": "Mar 3, 2019 2:59:41 AM"
-        },
-        "detail-type": "CodeBuild Build Phase Change",
-        "source": "aws.codebuild",
-        "version": "0",
-        "time": "2019-03-03T02:59:39Z",
-        "id": "97a1cf2d-2067-21bb-df40-3b4bd79a4d24",
-        "resources": [
-            "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "completed-phase-start": "Mar 3, 2019 2:59:41 AM",
-            "project-name": "twooca-dev-build-2nd",
-            "completed-phase": "FINALIZING",
-            "completed-phase-context": "[: ]",
-            "version": "1",
-            "build-id": "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e",
-            "completed-phase-status": "SUCCEEDED",
-            "additional-information": {
-                "build-complete": false,
-                "build-start-time": "Mar 3, 2019 2:59:14 AM",
-                "logs": {
-                    "group-name": "/aws/codebuild/twooca-dev-build-2nd",
-                    "deep-link": "https://console.aws.amazon.com/cloudwatch/home?region=ap-northeast-1#logEvent:group=/aws/codebuild/twooca-dev-build-2nd;stream=69417330-77d3-47e6-9069-9a485694962e",
-                    "stream-name": "69417330-77d3-47e6-9069-9a485694962e"
-                },
-                "source": {
-                    "buildspec": "buildspec.yml",
-                    "type": "CODEPIPELINE"
-                },
-                "cache": {
-                    "type": "NO_CACHE"
-                },
-                "initiator": "codepipeline/twooca-CD-sandbox",
-                "artifact": {
-                    "md5sum": "c925b4981a406516a219cbf1998ec1b2",
-                    "location": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/BuildArtif/JdkSrVs",
-                    "sha256sum": "df3964700d025f104e19f69c62c1dd7c023a29a5b2c42318d58f470589d4ae56"
-                },
-                "environment": {
-                    "compute-type": "BUILD_GENERAL1_SMALL",
-                    "image": "aws/codebuild/ruby:2.5.1",
-                    "type": "LINUX_CONTAINER",
-                    "environment-variables": [],
-                    "privileged-mode": true
-                },
-                "timeout-in-minutes": 60,
-                "source-version": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/SourceArti/z46uKHN.zip",
-                "queued-timeout-in-minutes": 480,
-                "phases": [
-                    {
-                        "end-time": "Mar 3, 2019 2:59:14 AM",
-                        "start-time": "Mar 3, 2019 2:59:14 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "SUBMITTED",
-                        "duration-in-seconds": 0,
-                        "phase-context": []
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:16 AM",
-                        "start-time": "Mar 3, 2019 2:59:14 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "QUEUED",
-                        "duration-in-seconds": 1,
-                        "phase-context": []
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:37 AM",
-                        "start-time": "Mar 3, 2019 2:59:16 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "PROVISIONING",
-                        "duration-in-seconds": 21,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:38 AM",
-                        "start-time": "Mar 3, 2019 2:59:37 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "DOWNLOAD_SOURCE",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:39 AM",
-                        "start-time": "Mar 3, 2019 2:59:38 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "INSTALL",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:39 AM",
-                        "start-time": "Mar 3, 2019 2:59:39 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "PRE_BUILD",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:39 AM",
-                        "start-time": "Mar 3, 2019 2:59:39 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "BUILD",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:39 AM",
-                        "start-time": "Mar 3, 2019 2:59:39 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "POST_BUILD",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:41 AM",
-                        "start-time": "Mar 3, 2019 2:59:39 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "UPLOAD_ARTIFACTS",
-                        "duration-in-seconds": 1,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:43 AM",
-                        "start-time": "Mar 3, 2019 2:59:41 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "FINALIZING",
-                        "duration-in-seconds": 2,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "phase-type": "COMPLETED",
-                        "start-time": "Mar 3, 2019 2:59:43 AM"
-                    }
-                ]
-            },
-            "completed-phase-duration-seconds": 2,
-            "completed-phase-end": "Mar 3, 2019 2:59:43 AM"
-        },
-        "detail-type": "CodeBuild Build Phase Change",
-        "source": "aws.codebuild",
-        "version": "0",
-        "time": "2019-03-03T02:59:41Z",
-        "id": "729da6b3-2b29-33c4-2b78-54a1e613ebc9",
-        "resources": [
-            "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "project-name": "twooca-dev-build-2nd",
-            "current-phase": "COMPLETED",
-            "current-phase-context": "[: ]",
-            "version": "1",
-            "build-id": "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e",
-            "build-status": "SUCCEEDED",
-            "additional-information": {
-                "build-complete": true,
-                "build-start-time": "Mar 3, 2019 2:59:14 AM",
-                "logs": {
-                    "group-name": "/aws/codebuild/twooca-dev-build-2nd",
-                    "deep-link": "https://console.aws.amazon.com/cloudwatch/home?region=ap-northeast-1#logEvent:group=/aws/codebuild/twooca-dev-build-2nd;stream=69417330-77d3-47e6-9069-9a485694962e",
-                    "stream-name": "69417330-77d3-47e6-9069-9a485694962e"
-                },
-                "source": {
-                    "buildspec": "buildspec.yml",
-                    "type": "CODEPIPELINE"
-                },
-                "cache": {
-                    "type": "NO_CACHE"
-                },
-                "initiator": "codepipeline/twooca-CD-sandbox",
-                "artifact": {
-                    "md5sum": "c925b4981a406516a219cbf1998ec1b2",
-                    "location": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/BuildArtif/JdkSrVs",
-                    "sha256sum": "df3964700d025f104e19f69c62c1dd7c023a29a5b2c42318d58f470589d4ae56"
-                },
-                "environment": {
-                    "compute-type": "BUILD_GENERAL1_SMALL",
-                    "image": "aws/codebuild/ruby:2.5.1",
-                    "type": "LINUX_CONTAINER",
-                    "environment-variables": [],
-                    "privileged-mode": true
-                },
-                "timeout-in-minutes": 60,
-                "source-version": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/SourceArti/z46uKHN.zip",
-                "queued-timeout-in-minutes": 480,
-                "phases": [
-                    {
-                        "end-time": "Mar 3, 2019 2:59:14 AM",
-                        "start-time": "Mar 3, 2019 2:59:14 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "SUBMITTED",
-                        "duration-in-seconds": 0,
-                        "phase-context": []
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:16 AM",
-                        "start-time": "Mar 3, 2019 2:59:14 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "QUEUED",
-                        "duration-in-seconds": 1,
-                        "phase-context": []
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:37 AM",
-                        "start-time": "Mar 3, 2019 2:59:16 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "PROVISIONING",
-                        "duration-in-seconds": 21,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:38 AM",
-                        "start-time": "Mar 3, 2019 2:59:37 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "DOWNLOAD_SOURCE",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:39 AM",
-                        "start-time": "Mar 3, 2019 2:59:38 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "INSTALL",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:39 AM",
-                        "start-time": "Mar 3, 2019 2:59:39 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "PRE_BUILD",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:39 AM",
-                        "start-time": "Mar 3, 2019 2:59:39 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "BUILD",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:39 AM",
-                        "start-time": "Mar 3, 2019 2:59:39 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "POST_BUILD",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:41 AM",
-                        "start-time": "Mar 3, 2019 2:59:39 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "UPLOAD_ARTIFACTS",
-                        "duration-in-seconds": 1,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:43 AM",
-                        "start-time": "Mar 3, 2019 2:59:41 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "FINALIZING",
-                        "duration-in-seconds": 2,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "phase-type": "COMPLETED",
-                        "start-time": "Mar 3, 2019 2:59:43 AM"
-                    }
-                ]
-            }
-        },
-        "detail-type": "CodeBuild Build State Change",
-        "source": "aws.codebuild",
-        "version": "0",
-        "time": "2019-03-03T02:59:45Z",
-        "id": "fe4c6008-b5da-0967-6c73-63e56c474472",
-        "resources": [
-            "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "instanceId": "i-0ae1a35e85956eaac",
-            "region": "ap-northeast-1",
-            "deploymentId": "d-AQ60746SX",
-            "application": "twooca",
-            "state": "START",
-            "deploymentGroup": "twooca_pre-stg_web01",
-            "instanceGroupId": "45102cd6-8744-4379-aef6-3b08977df7c1"
-        },
-        "detail-type": "CodeDeploy Instance State-change Notification",
-        "source": "aws.codedeploy",
-        "version": "0",
-        "time": "2019-03-03T02:59:53Z",
-        "id": "b6d66ba1-8acd-b69d-5c91-610f5a4e449e",
-        "resources": [
-            "arn:aws:codedeploy:ap-northeast-1:221443671214:application:twooca",
-            "arn:aws:ec2:ap-northeast-1:221443671214:instance/i-0ae1a35e85956eaac",
-            "arn:aws:codedeploy:ap-northeast-1:221443671214:deploymentgroup:twooca/twooca_pre-stg_web01"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "instanceId": "i-0077c67536b1e1b13",
-            "region": "ap-northeast-1",
-            "deploymentId": "d-NDA43M1SX",
-            "application": "twooca",
-            "state": "START",
-            "deploymentGroup": "twooca_pre-stg_web02",
-            "instanceGroupId": "55941895-59d0-4dd7-bf3f-4b79f81541cd"
-        },
-        "detail-type": "CodeDeploy Instance State-change Notification",
-        "source": "aws.codedeploy",
-        "version": "0",
-        "time": "2019-03-03T02:59:53Z",
-        "id": "9298dc1f-bb85-a76a-85bf-ad1570d4430d",
-        "resources": [
-            "arn:aws:codedeploy:ap-northeast-1:221443671214:application:twooca",
-            "arn:aws:ec2:ap-northeast-1:221443671214:instance/i-0077c67536b1e1b13",
-            "arn:aws:codedeploy:ap-northeast-1:221443671214:deploymentgroup:twooca/twooca_pre-stg_web02"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "execution-id": "45ec171d-f9bf-4ca9-a604-041df5a7e10c",
-            "pipeline": "twooca-CD-sandbox",
-            "region": "ap-northeast-1",
-            "state": "STARTED",
-            "version": 12,
-            "action": "web01",
-            "type": {
-                "owner": "AWS",
-                "category": "Deploy",
-                "version": "1",
-                "provider": "CodeDeploy"
-            },
-            "stage": "Deploy"
-        },
-        "detail-type": "CodePipeline Action Execution State Change",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T02:59:47Z",
-        "id": "916f1c21-212a-f068-d26d-21f11b6a1aed",
-        "resources": [
-            "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "execution-id": "45ec171d-f9bf-4ca9-a604-041df5a7e10c",
-            "pipeline": "twooca-CD-sandbox",
-            "version": 12,
-            "state": "SUCCEEDED",
-            "stage": "Build"
-        },
-        "detail-type": "CodePipeline Stage Execution State Change",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T02:59:46Z",
-        "id": "92a127c4-d844-edc5-0c91-23043b4bfe5f",
-        "resources": [
-            "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "eventVersion": "1.05",
-            "eventID": "c8c0d443-8a0a-4e1b-a434-0c2f71b6166b",
-            "eventTime": "2019-03-03T02:59:10Z",
-            "requestParameters": {
-                "actionName": "Approval",
-                "token": "1999f0c6-3a0b-4dff-9225-de294214bc20",
-                "pipelineName": "twooca-CD-sandbox",
-                "result": {
-                    "status": "Approved",
-                    "summary": "test"
-                },
-                "stageName": "Approval"
-            },
-            "eventType": "AwsApiCall",
-            "responseElements": {
-                "approvedAt": "Mar 3, 2019 2:59:10 AM"
-            },
-            "awsRegion": "ap-northeast-1",
-            "eventName": "PutApprovalResult",
-            "userIdentity": {
-                "userName": "suwa",
-                "principalId": "AIDAIB5XAW3WD6WSLHWPS",
-                "accessKeyId": "ASIATHDYSISXBL6N3443",
-                "invokedBy": "signin.amazonaws.com",
-                "sessionContext": {
-                    "attributes": {
-                        "creationDate": "2019-03-02T17:03:52Z",
-                        "mfaAuthenticated": "false"
-                    }
-                },
-                "type": "IAMUser",
-                "arn": "arn:aws:iam::221443671214:user/suwa",
-                "accountId": "221443671214"
-            },
-            "eventSource": "codepipeline.amazonaws.com",
-            "requestID": "5e9fc451-892e-494a-9f5d-cb842d1de53a",
-            "userAgent": "signin.amazonaws.com",
-            "sourceIPAddress": "111.98.107.97"
-        },
-        "detail-type": "AWS API Call via CloudTrail",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T02:59:10Z",
-        "id": "01ddd892-d6dd-4c2d-3dde-40578476b22f",
-        "resources": []
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "eventVersion": "1.05",
-            "eventID": "d39e2732-7366-45a1-8349-b782d37e2b83",
-            "eventTime": "2019-03-03T02:59:14Z",
-            "requestParameters": {
-                "awsActId": "221443671214",
-                "payerId": ":1:d2:bcd3:pid12:163590789921ee",
-                "userArn": "arn:aws:sts::221443671214:assumed-role/devopsPipelineRole/1551581953425"
-            },
-            "eventType": "AwsApiCall",
-            "responseElements": {
-                "build": {
-                    "resolvedSourceVersion": "9961d09a8494122e8de7329c6c4e5e90a5216d4c",
-                    "logs": {
-                        "deepLink": "https://console.aws.amazon.com/cloudwatch/home?region=ap-northeast-1#logEvent:group=null;stream=null"
-                    },
-                    "secondaryArtifacts": [],
-                    "id": "twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e",
-                    "arn": "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e",
-                    "sourceVersion": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/SourceArti/z46uKHN.zip",
-                    "phases": [
-                        {
-                            "phaseStatus": "SUCCEEDED",
-                            "endTime": "Mar 3, 2019 2:59:14 AM",
-                            "phaseType": "SUBMITTED",
-                            "durationInSeconds": 0,
-                            "startTime": "Mar 3, 2019 2:59:14 AM"
-                        },
-                        {
-                            "phaseType": "QUEUED",
-                            "startTime": "Mar 3, 2019 2:59:14 AM"
-                        }
-                    ],
-                    "serviceRole": "arn:aws:iam::221443671214:role/service-role/codebuild-twooca-dev-service-role",
-                    "artifacts": {
-                        "encryptionDisabled": false,
-                        "location": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/BuildArtif/JdkSrVs"
-                    },
-                    "cache": {
-                        "type": "NO_CACHE"
-                    },
-                    "environment": {
-                        "imagePullCredentialsType": "CODEBUILD",
-                        "computeType": "BUILD_GENERAL1_SMALL",
-                        "privilegedMode": true,
-                        "image": "aws/codebuild/ruby:2.5.1",
-                        "environmentVariables": [
-                            {
-                                "type": "PLAINTEXT",
-                                "name": "CODEBUILD_RESOLVED_SOURCE_VERSION",
-                                "value": "9961d09a8494122e8de7329c6c4e5e90a5216d4c"
-                            }
-                        ],
-                        "type": "LINUX_CONTAINER"
-                    },
-                    "source": {
-                        "buildspec": "buildspec.yml",
-                        "gitCloneDepth": 1,
-                        "insecureSsl": false,
-                        "type": "CODEPIPELINE"
-                    },
-                    "projectName": "twooca-dev-build-2nd",
-                    "buildComplete": false,
-                    "currentPhase": "QUEUED",
-                    "startTime": "Mar 3, 2019 2:59:14 AM",
-                    "secondarySources": [],
-                    "initiator": "codepipeline/twooca-CD-sandbox",
-                    "timeoutInMinutes": 60,
-                    "buildStatus": "IN_PROGRESS",
-                    "encryptionKey": "arn:aws:kms:ap-northeast-1:221443671214:alias/aws/s3",
-                    "queuedTimeoutInMinutes": 480
-                }
-            },
-            "awsRegion": "ap-northeast-1",
-            "eventName": "StartBuild",
-            "userIdentity": {
-                "principalId": "AROAIKVHARSIUDMLTQCWC:1551581953425",
-                "accessKeyId": "ASIATHDYSISXELTDKZ5N",
-                "invokedBy": "codepipeline.amazonaws.com",
-                "sessionContext": {
-                    "sessionIssuer": {
-                        "userName": "devopsPipelineRole",
-                        "type": "Role",
-                        "arn": "arn:aws:iam::221443671214:role/service-role/devopsPipelineRole",
-                        "principalId": "AROAIKVHARSIUDMLTQCWC",
-                        "accountId": "221443671214"
-                    },
-                    "attributes": {
-                        "creationDate": "2019-03-03T02:59:13Z",
-                        "mfaAuthenticated": "false"
-                    }
-                },
-                "type": "AssumedRole",
-                "arn": "arn:aws:sts::221443671214:assumed-role/devopsPipelineRole/1551581953425",
-                "accountId": "221443671214"
-            },
-            "eventSource": "codebuild.amazonaws.com",
-            "requestID": "53b5835d-3d60-11e9-8956-27ba71d0ceef",
-            "userAgent": "codepipeline.amazonaws.com",
-            "sourceIPAddress": "codepipeline.amazonaws.com"
-        },
-        "detail-type": "AWS API Call via CloudTrail",
-        "source": "aws.codebuild",
-        "version": "0",
-        "time": "2019-03-03T02:59:14Z",
-        "id": "cce520f4-0a32-b255-fbdc-9562f3fa0e55",
-        "resources": []
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "eventVersion": "1.05",
-            "eventID": "cb002cbf-6a07-451c-91d1-5f8731255217",
-            "eventTime": "2019-03-03T02:59:45Z",
-            "requestParameters": {
-                "awsActId": "221443671214",
-                "payerId": ":1:d2:bcd3:pid12:163590789921ee",
-                "userArn": "arn:aws:sts::221443671214:assumed-role/devopsPipelineRole/1551581985580"
-            },
-            "eventType": "AwsApiCall",
-            "responseElements": null,
-            "awsRegion": "ap-northeast-1",
-            "eventName": "BatchGetBuilds",
-            "userIdentity": {
-                "principalId": "AROAIKVHARSIUDMLTQCWC:1551581985580",
-                "accessKeyId": "ASIATHDYSISXIVXRLDEH",
-                "invokedBy": "codepipeline.amazonaws.com",
-                "sessionContext": {
-                    "sessionIssuer": {
-                        "userName": "devopsPipelineRole",
-                        "type": "Role",
-                        "arn": "arn:aws:iam::221443671214:role/service-role/devopsPipelineRole",
-                        "principalId": "AROAIKVHARSIUDMLTQCWC",
-                        "accountId": "221443671214"
-                    },
-                    "attributes": {
-                        "creationDate": "2019-03-03T02:59:45Z",
-                        "mfaAuthenticated": "false"
-                    }
-                },
-                "type": "AssumedRole",
-                "arn": "arn:aws:sts::221443671214:assumed-role/devopsPipelineRole/1551581985580",
-                "accountId": "221443671214"
-            },
-            "eventSource": "codebuild.amazonaws.com",
-            "requestID": "66944b8e-3d60-11e9-a7a9-cd0971c55f7a",
-            "userAgent": "codepipeline.amazonaws.com",
-            "sourceIPAddress": "codepipeline.amazonaws.com"
-        },
-        "detail-type": "AWS API Call via CloudTrail",
-        "source": "aws.codebuild",
-        "version": "0",
-        "time": "2019-03-03T02:59:45Z",
-        "id": "1c569287-4156-d801-1f1a-a5ea9c9483b4",
-        "resources": []
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "eventVersion": "1.05",
-            "eventID": "f1f63771-8b93-4ce4-bfbc-1ee9ca214677",
-            "eventTime": "2019-03-03T02:59:48Z",
-            "requestParameters": {
-                "applicationName": "twooca",
-                "ignoreApplicationStopFailures": false,
-                "deploymentGroupName": "twooca_pre-stg_web01",
-                "updateOutdatedInstancesOnly": false,
-                "revision": {
-                    "revisionType": "S3",
-                    "s3Location": {
-                        "bundleType": "zip",
-                        "eTag": "72c5ecd3e31e4b05a71f15120b9949c2-2",
-                        "bucket": "codepipeline-ap-northeast-1-612481500777",
-                        "key": "twooca-CD-sandbox/BuildArtif/JdkSrVs"
-                    }
-                }
-            },
-            "eventType": "AwsApiCall",
-            "responseElements": {
-                "deploymentId": "d-AQ60746SX"
-            },
-            "awsRegion": "ap-northeast-1",
-            "eventName": "CreateDeployment",
-            "userIdentity": {
-                "principalId": "AROAIKVHARSIUDMLTQCWC:1551581987510",
-                "accessKeyId": "ASIATHDYSISXFZLXWF7U",
-                "invokedBy": "codepipeline.amazonaws.com",
-                "sessionContext": {
-                    "sessionIssuer": {
-                        "userName": "devopsPipelineRole",
-                        "type": "Role",
-                        "arn": "arn:aws:iam::221443671214:role/service-role/devopsPipelineRole",
-                        "principalId": "AROAIKVHARSIUDMLTQCWC",
-                        "accountId": "221443671214"
-                    },
-                    "attributes": {
-                        "creationDate": "2019-03-03T02:59:47Z",
-                        "mfaAuthenticated": "false"
-                    }
-                },
-                "type": "AssumedRole",
-                "arn": "arn:aws:sts::221443671214:assumed-role/devopsPipelineRole/1551581987510",
-                "accountId": "221443671214"
-            },
-            "eventSource": "codedeploy.amazonaws.com",
-            "requestID": "d64f0353-7687-4e69-9806-f5638d4ebb7c",
-            "userAgent": "codepipeline.amazonaws.com",
-            "sourceIPAddress": "codepipeline.amazonaws.com"
-        },
-        "detail-type": "AWS API Call via CloudTrail",
-        "source": "aws.codedeploy",
-        "version": "0",
-        "time": "2019-03-03T02:59:48Z",
-        "id": "f5c1f6be-56ac-252d-5051-0bd772f40856",
-        "resources": []
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "eventVersion": "1.05",
-            "eventID": "79b81563-dd6f-47ac-99d8-5786e147a032",
-            "eventTime": "2019-03-03T02:58:28Z",
-            "requestParameters": {
-                "name": "twooca-CD-sandbox",
-                "clientRequestToken": "b5f2488f-c442-487c-9dfb-85cc8ef1d903"
-            },
-            "eventType": "AwsApiCall",
-            "responseElements": {
-                "pipelineExecutionId": "45ec171d-f9bf-4ca9-a604-041df5a7e10c"
-            },
-            "awsRegion": "ap-northeast-1",
-            "eventName": "StartPipelineExecution",
-            "userIdentity": {
-                "userName": "suwa",
-                "principalId": "AIDAIB5XAW3WD6WSLHWPS",
-                "accessKeyId": "ASIATHDYSISXBL6N3443",
-                "invokedBy": "signin.amazonaws.com",
-                "sessionContext": {
-                    "attributes": {
-                        "creationDate": "2019-03-02T17:03:52Z",
-                        "mfaAuthenticated": "false"
-                    }
-                },
-                "type": "IAMUser",
-                "arn": "arn:aws:iam::221443671214:user/suwa",
-                "accountId": "221443671214"
-            },
-            "eventSource": "codepipeline.amazonaws.com",
-            "requestID": "f57aecd5-2217-4fd1-ac7f-f0b7482c0e5b",
-            "userAgent": "signin.amazonaws.com",
-            "sourceIPAddress": "111.98.107.97"
-        },
-        "detail-type": "AWS API Call via CloudTrail",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T02:58:28Z",
-        "id": "d997b929-ee4b-6d60-9261-89caa4fe1cb5",
-        "resources": []
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "eventVersion": "1.05",
-            "eventID": "3afe28d5-b3b8-409f-9f6c-f00f194158a1",
-            "eventTime": "2019-03-03T02:59:48Z",
-            "requestParameters": {
-                "applicationName": "twooca",
-                "ignoreApplicationStopFailures": false,
-                "deploymentGroupName": "twooca_pre-stg_web02",
-                "updateOutdatedInstancesOnly": false,
-                "revision": {
-                    "revisionType": "S3",
-                    "s3Location": {
-                        "bundleType": "zip",
-                        "eTag": "72c5ecd3e31e4b05a71f15120b9949c2-2",
-                        "bucket": "codepipeline-ap-northeast-1-612481500777",
-                        "key": "twooca-CD-sandbox/BuildArtif/JdkSrVs"
-                    }
-                }
-            },
-            "eventType": "AwsApiCall",
-            "responseElements": {
-                "deploymentId": "d-NDA43M1SX"
-            },
-            "awsRegion": "ap-northeast-1",
-            "eventName": "CreateDeployment",
-            "userIdentity": {
-                "principalId": "AROAIKVHARSIUDMLTQCWC:1551581988148",
-                "accessKeyId": "ASIATHDYSISXNCURH4GF",
-                "invokedBy": "codepipeline.amazonaws.com",
-                "sessionContext": {
-                    "sessionIssuer": {
-                        "userName": "devopsPipelineRole",
-                        "type": "Role",
-                        "arn": "arn:aws:iam::221443671214:role/service-role/devopsPipelineRole",
-                        "principalId": "AROAIKVHARSIUDMLTQCWC",
-                        "accountId": "221443671214"
-                    },
-                    "attributes": {
-                        "creationDate": "2019-03-03T02:59:48Z",
-                        "mfaAuthenticated": "false"
-                    }
-                },
-                "type": "AssumedRole",
-                "arn": "arn:aws:sts::221443671214:assumed-role/devopsPipelineRole/1551581988148",
-                "accountId": "221443671214"
-            },
-            "eventSource": "codedeploy.amazonaws.com",
-            "requestID": "fc5a2ab2-1c5c-4392-9761-80affe1e9d21",
-            "userAgent": "codepipeline.amazonaws.com",
-            "sourceIPAddress": "codepipeline.amazonaws.com"
-        },
-        "detail-type": "AWS API Call via CloudTrail",
-        "source": "aws.codedeploy",
-        "version": "0",
-        "time": "2019-03-03T02:59:48Z",
-        "id": "fb9847af-b27c-1a96-86d5-fab017beeb76",
-        "resources": []
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "eventVersion": "1.05",
-            "eventID": "c8c0d443-8a0a-4e1b-a434-0c2f71b6166b",
-            "eventTime": "2019-03-03T02:59:10Z",
-            "requestParameters": {
-                "actionName": "Approval",
-                "token": "1999f0c6-3a0b-4dff-9225-de294214bc20",
-                "pipelineName": "twooca-CD-sandbox",
-                "result": {
-                    "status": "Approved",
-                    "summary": "test"
-                },
-                "stageName": "Approval"
-            },
-            "eventType": "AwsApiCall",
-            "responseElements": {
-                "approvedAt": "Mar 3, 2019 2:59:10 AM"
-            },
-            "awsRegion": "ap-northeast-1",
-            "eventName": "PutApprovalResult",
-            "userIdentity": {
-                "userName": "suwa",
-                "principalId": "AIDAIB5XAW3WD6WSLHWPS",
-                "accessKeyId": "ASIATHDYSISXBL6N3443",
-                "invokedBy": "signin.amazonaws.com",
-                "sessionContext": {
-                    "attributes": {
-                        "creationDate": "2019-03-02T17:03:52Z",
-                        "mfaAuthenticated": "false"
-                    }
-                },
-                "type": "IAMUser",
-                "arn": "arn:aws:iam::221443671214:user/suwa",
-                "accountId": "221443671214"
-            },
-            "eventSource": "codepipeline.amazonaws.com",
-            "requestID": "5e9fc451-892e-494a-9f5d-cb842d1de53a",
-            "userAgent": "signin.amazonaws.com",
-            "sourceIPAddress": "111.98.107.97"
-        },
-        "detail-type": "AWS API Call via CloudTrail",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T02:59:10Z",
-        "id": "01ddd892-d6dd-4c2d-3dde-40578476b22f",
-        "resources": []
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "eventVersion": "1.05",
-            "eventID": "cb002cbf-6a07-451c-91d1-5f8731255217",
-            "eventTime": "2019-03-03T02:59:45Z",
-            "requestParameters": {
-                "awsActId": "221443671214",
-                "payerId": ":1:d2:bcd3:pid12:163590789921ee",
-                "userArn": "arn:aws:sts::221443671214:assumed-role/devopsPipelineRole/1551581985580"
-            },
-            "eventType": "AwsApiCall",
-            "responseElements": null,
-            "awsRegion": "ap-northeast-1",
-            "eventName": "BatchGetBuilds",
-            "userIdentity": {
-                "principalId": "AROAIKVHARSIUDMLTQCWC:1551581985580",
-                "accessKeyId": "ASIATHDYSISXIVXRLDEH",
-                "invokedBy": "codepipeline.amazonaws.com",
-                "sessionContext": {
-                    "sessionIssuer": {
-                        "userName": "devopsPipelineRole",
-                        "type": "Role",
-                        "arn": "arn:aws:iam::221443671214:role/service-role/devopsPipelineRole",
-                        "principalId": "AROAIKVHARSIUDMLTQCWC",
-                        "accountId": "221443671214"
-                    },
-                    "attributes": {
-                        "creationDate": "2019-03-03T02:59:45Z",
-                        "mfaAuthenticated": "false"
-                    }
-                },
-                "type": "AssumedRole",
-                "arn": "arn:aws:sts::221443671214:assumed-role/devopsPipelineRole/1551581985580",
-                "accountId": "221443671214"
-            },
-            "eventSource": "codebuild.amazonaws.com",
-            "requestID": "66944b8e-3d60-11e9-a7a9-cd0971c55f7a",
-            "userAgent": "codepipeline.amazonaws.com",
-            "sourceIPAddress": "codepipeline.amazonaws.com"
-        },
-        "detail-type": "AWS API Call via CloudTrail",
-        "source": "aws.codebuild",
-        "version": "0",
-        "time": "2019-03-03T02:59:45Z",
-        "id": "1c569287-4156-d801-1f1a-a5ea9c9483b4",
-        "resources": []
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "completed-phase-start": "Mar 3, 2019 2:59:39 AM",
-            "project-name": "twooca-dev-build-2nd",
-            "completed-phase": "POST_BUILD",
-            "completed-phase-context": "[: ]",
-            "version": "1",
-            "build-id": "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e",
-            "completed-phase-status": "SUCCEEDED",
-            "additional-information": {
-                "build-complete": false,
-                "build-start-time": "Mar 3, 2019 2:59:14 AM",
-                "logs": {
-                    "group-name": "/aws/codebuild/twooca-dev-build-2nd",
-                    "deep-link": "https://console.aws.amazon.com/cloudwatch/home?region=ap-northeast-1#logEvent:group=/aws/codebuild/twooca-dev-build-2nd;stream=69417330-77d3-47e6-9069-9a485694962e",
-                    "stream-name": "69417330-77d3-47e6-9069-9a485694962e"
-                },
-                "source": {
-                    "buildspec": "buildspec.yml",
-                    "type": "CODEPIPELINE"
-                },
-                "cache": {
-                    "type": "NO_CACHE"
-                },
-                "initiator": "codepipeline/twooca-CD-sandbox",
-                "artifact": {
-                    "location": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/BuildArtif/JdkSrVs"
-                },
-                "environment": {
-                    "compute-type": "BUILD_GENERAL1_SMALL",
-                    "image": "aws/codebuild/ruby:2.5.1",
-                    "type": "LINUX_CONTAINER",
-                    "environment-variables": [],
-                    "privileged-mode": true
-                },
-                "timeout-in-minutes": 60,
-                "source-version": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/SourceArti/z46uKHN.zip",
-                "queued-timeout-in-minutes": 480,
-                "phases": [
-                    {
-                        "end-time": "Mar 3, 2019 2:59:14 AM",
-                        "start-time": "Mar 3, 2019 2:59:14 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "SUBMITTED",
-                        "duration-in-seconds": 0,
-                        "phase-context": []
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:16 AM",
-                        "start-time": "Mar 3, 2019 2:59:14 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "QUEUED",
-                        "duration-in-seconds": 1,
-                        "phase-context": []
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:37 AM",
-                        "start-time": "Mar 3, 2019 2:59:16 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "PROVISIONING",
-                        "duration-in-seconds": 21,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:38 AM",
-                        "start-time": "Mar 3, 2019 2:59:37 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "DOWNLOAD_SOURCE",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:39 AM",
-                        "start-time": "Mar 3, 2019 2:59:38 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "INSTALL",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:39 AM",
-                        "start-time": "Mar 3, 2019 2:59:39 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "PRE_BUILD",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:39 AM",
-                        "start-time": "Mar 3, 2019 2:59:39 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "BUILD",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "end-time": "Mar 3, 2019 2:59:39 AM",
-                        "start-time": "Mar 3, 2019 2:59:39 AM",
-                        "phase-status": "SUCCEEDED",
-                        "phase-type": "POST_BUILD",
-                        "duration-in-seconds": 0,
-                        "phase-context": [
-                            ": "
-                        ]
-                    },
-                    {
-                        "phase-type": "UPLOAD_ARTIFACTS",
-                        "start-time": "Mar 3, 2019 2:59:39 AM"
-                    }
-                ]
-            },
-            "completed-phase-duration-seconds": 0,
-            "completed-phase-end": "Mar 3, 2019 2:59:39 AM"
-        },
-        "detail-type": "CodeBuild Build Phase Change",
-        "source": "aws.codebuild",
-        "version": "0",
-        "time": "2019-03-03T02:59:39Z",
-        "id": "d4f157a0-4d77-6b0a-f4f8-c80d4b98abcc",
-        "resources": [
-            "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "region": "ap-northeast-1",
-            "deploymentId": "d-AQ60746SX",
-            "application": "twooca",
-            "state": "START",
-            "deploymentGroup": "twooca_pre-stg_web01",
-            "instanceGroupId": "45102cd6-8744-4379-aef6-3b08977df7c1"
-        },
-        "detail-type": "CodeDeploy Deployment State-change Notification",
-        "source": "aws.codedeploy",
-        "version": "0",
-        "time": "2019-03-03T02:59:48Z",
-        "id": "2d7877cf-34cd-ed7b-b734-b410bfc7c70e",
-        "resources": [
-            "arn:aws:codedeploy:ap-northeast-1:221443671214:application:twooca",
-            "arn:aws:codedeploy:ap-northeast-1:221443671214:deploymentgroup:twooca/twooca_pre-stg_web01"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "region": "ap-northeast-1",
-            "deploymentId": "d-NDA43M1SX",
-            "application": "twooca",
-            "state": "START",
-            "deploymentGroup": "twooca_pre-stg_web02",
-            "instanceGroupId": "55941895-59d0-4dd7-bf3f-4b79f81541cd"
-        },
-        "detail-type": "CodeDeploy Deployment State-change Notification",
-        "source": "aws.codedeploy",
-        "version": "0",
-        "time": "2019-03-03T02:59:49Z",
-        "id": "52a32892-994c-df64-d01f-8addd31aa9eb",
-        "resources": [
-            "arn:aws:codedeploy:ap-northeast-1:221443671214:application:twooca",
-            "arn:aws:codedeploy:ap-northeast-1:221443671214:deploymentgroup:twooca/twooca_pre-stg_web02"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "execution-id": "45ec171d-f9bf-4ca9-a604-041df5a7e10c",
-            "pipeline": "twooca-CD-sandbox",
-            "version": 12,
-            "state": "STARTED",
-            "stage": "Deploy"
-        },
-        "detail-type": "CodePipeline Stage Execution State Change",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T02:59:46Z",
-        "id": "40d1c6b3-480a-9e73-96ca-1a8c06df6b2f",
-        "resources": [
-            "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "execution-id": "45ec171d-f9bf-4ca9-a604-041df5a7e10c",
-            "pipeline": "twooca-CD-sandbox",
-            "region": "ap-northeast-1",
-            "state": "SUCCEEDED",
-            "version": 12,
-            "action": "Build",
-            "type": {
-                "owner": "AWS",
-                "category": "Build",
-                "version": "1",
-                "provider": "CodeBuild"
-            },
-            "stage": "Build"
-        },
-        "detail-type": "CodePipeline Action Execution State Change",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T02:59:46Z",
-        "id": "46b2ade6-4c32-c7ad-6c93-3416ad508e95",
-        "resources": [
-            "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "execution-id": "45ec171d-f9bf-4ca9-a604-041df5a7e10c",
-            "pipeline": "twooca-CD-sandbox",
-            "region": "ap-northeast-1",
-            "state": "STARTED",
-            "version": 12,
-            "action": "web02",
-            "type": {
-                "owner": "AWS",
-                "category": "Deploy",
-                "version": "1",
-                "provider": "CodeDeploy"
-            },
-            "stage": "Deploy"
-        },
-        "detail-type": "CodePipeline Action Execution State Change",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T02:59:47Z",
-        "id": "c3abf7d8-270e-97d4-a85a-edd6d23dd1a1",
-        "resources": [
-            "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "eventVersion": "1.05",
-            "eventID": "d39e2732-7366-45a1-8349-b782d37e2b83",
-            "eventTime": "2019-03-03T02:59:14Z",
-            "requestParameters": {
-                "awsActId": "221443671214",
-                "payerId": ":1:d2:bcd3:pid12:163590789921ee",
-                "userArn": "arn:aws:sts::221443671214:assumed-role/devopsPipelineRole/1551581953425"
-            },
-            "eventType": "AwsApiCall",
-            "responseElements": {
-                "build": {
-                    "resolvedSourceVersion": "9961d09a8494122e8de7329c6c4e5e90a5216d4c",
-                    "logs": {
-                        "deepLink": "https://console.aws.amazon.com/cloudwatch/home?region=ap-northeast-1#logEvent:group=null;stream=null"
-                    },
-                    "secondaryArtifacts": [],
-                    "id": "twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e",
-                    "arn": "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e",
-                    "sourceVersion": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/SourceArti/z46uKHN.zip",
-                    "phases": [
-                        {
-                            "phaseStatus": "SUCCEEDED",
-                            "endTime": "Mar 3, 2019 2:59:14 AM",
-                            "phaseType": "SUBMITTED",
-                            "durationInSeconds": 0,
-                            "startTime": "Mar 3, 2019 2:59:14 AM"
-                        },
-                        {
-                            "phaseType": "QUEUED",
-                            "startTime": "Mar 3, 2019 2:59:14 AM"
-                        }
-                    ],
-                    "serviceRole": "arn:aws:iam::221443671214:role/service-role/codebuild-twooca-dev-service-role",
-                    "artifacts": {
-                        "encryptionDisabled": false,
-                        "location": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/BuildArtif/JdkSrVs"
-                    },
-                    "cache": {
-                        "type": "NO_CACHE"
-                    },
-                    "environment": {
-                        "imagePullCredentialsType": "CODEBUILD",
-                        "computeType": "BUILD_GENERAL1_SMALL",
-                        "privilegedMode": true,
-                        "image": "aws/codebuild/ruby:2.5.1",
-                        "environmentVariables": [
-                            {
-                                "type": "PLAINTEXT",
-                                "name": "CODEBUILD_RESOLVED_SOURCE_VERSION",
-                                "value": "9961d09a8494122e8de7329c6c4e5e90a5216d4c"
-                            }
-                        ],
-                        "type": "LINUX_CONTAINER"
-                    },
-                    "source": {
-                        "buildspec": "buildspec.yml",
-                        "gitCloneDepth": 1,
-                        "insecureSsl": false,
-                        "type": "CODEPIPELINE"
-                    },
-                    "projectName": "twooca-dev-build-2nd",
-                    "buildComplete": false,
-                    "currentPhase": "QUEUED",
-                    "startTime": "Mar 3, 2019 2:59:14 AM",
-                    "secondarySources": [],
-                    "initiator": "codepipeline/twooca-CD-sandbox",
-                    "timeoutInMinutes": 60,
-                    "buildStatus": "IN_PROGRESS",
-                    "encryptionKey": "arn:aws:kms:ap-northeast-1:221443671214:alias/aws/s3",
-                    "queuedTimeoutInMinutes": 480
-                }
-            },
-            "awsRegion": "ap-northeast-1",
-            "eventName": "StartBuild",
-            "userIdentity": {
-                "principalId": "AROAIKVHARSIUDMLTQCWC:1551581953425",
-                "accessKeyId": "ASIATHDYSISXELTDKZ5N",
-                "invokedBy": "codepipeline.amazonaws.com",
-                "sessionContext": {
-                    "sessionIssuer": {
-                        "userName": "devopsPipelineRole",
-                        "type": "Role",
-                        "arn": "arn:aws:iam::221443671214:role/service-role/devopsPipelineRole",
-                        "principalId": "AROAIKVHARSIUDMLTQCWC",
-                        "accountId": "221443671214"
-                    },
-                    "attributes": {
-                        "creationDate": "2019-03-03T02:59:13Z",
-                        "mfaAuthenticated": "false"
-                    }
-                },
-                "type": "AssumedRole",
-                "arn": "arn:aws:sts::221443671214:assumed-role/devopsPipelineRole/1551581953425",
-                "accountId": "221443671214"
-            },
-            "eventSource": "codebuild.amazonaws.com",
-            "requestID": "53b5835d-3d60-11e9-8956-27ba71d0ceef",
-            "userAgent": "codepipeline.amazonaws.com",
-            "sourceIPAddress": "codepipeline.amazonaws.com"
-        },
-        "detail-type": "AWS API Call via CloudTrail",
-        "source": "aws.codebuild",
-        "version": "0",
-        "time": "2019-03-03T02:59:14Z",
-        "id": "cce520f4-0a32-b255-fbdc-9562f3fa0e55",
-        "resources": []
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "eventVersion": "1.05",
-            "eventID": "79b81563-dd6f-47ac-99d8-5786e147a032",
-            "eventTime": "2019-03-03T02:58:28Z",
-            "requestParameters": {
-                "name": "twooca-CD-sandbox",
-                "clientRequestToken": "b5f2488f-c442-487c-9dfb-85cc8ef1d903"
-            },
-            "eventType": "AwsApiCall",
-            "responseElements": {
-                "pipelineExecutionId": "45ec171d-f9bf-4ca9-a604-041df5a7e10c"
-            },
-            "awsRegion": "ap-northeast-1",
-            "eventName": "StartPipelineExecution",
-            "userIdentity": {
-                "userName": "suwa",
-                "principalId": "AIDAIB5XAW3WD6WSLHWPS",
-                "accessKeyId": "ASIATHDYSISXBL6N3443",
-                "invokedBy": "signin.amazonaws.com",
-                "sessionContext": {
-                    "attributes": {
-                        "creationDate": "2019-03-02T17:03:52Z",
-                        "mfaAuthenticated": "false"
-                    }
-                },
-                "type": "IAMUser",
-                "arn": "arn:aws:iam::221443671214:user/suwa",
-                "accountId": "221443671214"
-            },
-            "eventSource": "codepipeline.amazonaws.com",
-            "requestID": "f57aecd5-2217-4fd1-ac7f-f0b7482c0e5b",
-            "userAgent": "signin.amazonaws.com",
-            "sourceIPAddress": "111.98.107.97"
-        },
-        "detail-type": "AWS API Call via CloudTrail",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T02:58:28Z",
-        "id": "d997b929-ee4b-6d60-9261-89caa4fe1cb5",
-        "resources": []
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "eventVersion": "1.05",
-            "eventID": "d39e2732-7366-45a1-8349-b782d37e2b83",
-            "eventTime": "2019-03-03T02:59:14Z",
-            "requestParameters": {
-                "awsActId": "221443671214",
-                "payerId": ":1:d2:bcd3:pid12:163590789921ee",
-                "userArn": "arn:aws:sts::221443671214:assumed-role/devopsPipelineRole/1551581953425"
-            },
-            "eventType": "AwsApiCall",
-            "responseElements": {
-                "build": {
-                    "resolvedSourceVersion": "9961d09a8494122e8de7329c6c4e5e90a5216d4c",
-                    "logs": {
-                        "deepLink": "https://console.aws.amazon.com/cloudwatch/home?region=ap-northeast-1#logEvent:group=null;stream=null"
-                    },
-                    "secondaryArtifacts": [],
-                    "id": "twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e",
-                    "arn": "arn:aws:codebuild:ap-northeast-1:221443671214:build/twooca-dev-build-2nd:69417330-77d3-47e6-9069-9a485694962e",
-                    "sourceVersion": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/SourceArti/z46uKHN.zip",
-                    "phases": [
-                        {
-                            "phaseStatus": "SUCCEEDED",
-                            "endTime": "Mar 3, 2019 2:59:14 AM",
-                            "phaseType": "SUBMITTED",
-                            "durationInSeconds": 0,
-                            "startTime": "Mar 3, 2019 2:59:14 AM"
-                        },
-                        {
-                            "phaseType": "QUEUED",
-                            "startTime": "Mar 3, 2019 2:59:14 AM"
-                        }
-                    ],
-                    "serviceRole": "arn:aws:iam::221443671214:role/service-role/codebuild-twooca-dev-service-role",
-                    "artifacts": {
-                        "encryptionDisabled": false,
-                        "location": "arn:aws:s3:::codepipeline-ap-northeast-1-612481500777/twooca-CD-sandbox/BuildArtif/JdkSrVs"
-                    },
-                    "cache": {
-                        "type": "NO_CACHE"
-                    },
-                    "environment": {
-                        "imagePullCredentialsType": "CODEBUILD",
-                        "computeType": "BUILD_GENERAL1_SMALL",
-                        "privilegedMode": true,
-                        "image": "aws/codebuild/ruby:2.5.1",
-                        "environmentVariables": [
-                            {
-                                "type": "PLAINTEXT",
-                                "name": "CODEBUILD_RESOLVED_SOURCE_VERSION",
-                                "value": "9961d09a8494122e8de7329c6c4e5e90a5216d4c"
-                            }
-                        ],
-                        "type": "LINUX_CONTAINER"
-                    },
-                    "source": {
-                        "buildspec": "buildspec.yml",
-                        "gitCloneDepth": 1,
-                        "insecureSsl": false,
-                        "type": "CODEPIPELINE"
-                    },
-                    "projectName": "twooca-dev-build-2nd",
-                    "buildComplete": false,
-                    "currentPhase": "QUEUED",
-                    "startTime": "Mar 3, 2019 2:59:14 AM",
-                    "secondarySources": [],
-                    "initiator": "codepipeline/twooca-CD-sandbox",
-                    "timeoutInMinutes": 60,
-                    "buildStatus": "IN_PROGRESS",
-                    "encryptionKey": "arn:aws:kms:ap-northeast-1:221443671214:alias/aws/s3",
-                    "queuedTimeoutInMinutes": 480
-                }
-            },
-            "awsRegion": "ap-northeast-1",
-            "eventName": "StartBuild",
-            "userIdentity": {
-                "principalId": "AROAIKVHARSIUDMLTQCWC:1551581953425",
-                "accessKeyId": "ASIATHDYSISXELTDKZ5N",
-                "invokedBy": "codepipeline.amazonaws.com",
-                "sessionContext": {
-                    "sessionIssuer": {
-                        "userName": "devopsPipelineRole",
-                        "type": "Role",
-                        "arn": "arn:aws:iam::221443671214:role/service-role/devopsPipelineRole",
-                        "principalId": "AROAIKVHARSIUDMLTQCWC",
-                        "accountId": "221443671214"
-                    },
-                    "attributes": {
-                        "creationDate": "2019-03-03T02:59:13Z",
-                        "mfaAuthenticated": "false"
-                    }
-                },
-                "type": "AssumedRole",
-                "arn": "arn:aws:sts::221443671214:assumed-role/devopsPipelineRole/1551581953425",
-                "accountId": "221443671214"
-            },
-            "eventSource": "codebuild.amazonaws.com",
-            "requestID": "53b5835d-3d60-11e9-8956-27ba71d0ceef",
-            "userAgent": "codepipeline.amazonaws.com",
-            "sourceIPAddress": "codepipeline.amazonaws.com"
-        },
-        "detail-type": "AWS API Call via CloudTrail",
-        "source": "aws.codebuild",
-        "version": "0",
-        "time": "2019-03-03T02:59:14Z",
-        "id": "cce520f4-0a32-b255-fbdc-9562f3fa0e55",
-        "resources": []
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "eventVersion": "1.05",
-            "eventID": "cb002cbf-6a07-451c-91d1-5f8731255217",
-            "eventTime": "2019-03-03T02:59:45Z",
-            "requestParameters": {
-                "awsActId": "221443671214",
-                "payerId": ":1:d2:bcd3:pid12:163590789921ee",
-                "userArn": "arn:aws:sts::221443671214:assumed-role/devopsPipelineRole/1551581985580"
-            },
-            "eventType": "AwsApiCall",
-            "responseElements": null,
-            "awsRegion": "ap-northeast-1",
-            "eventName": "BatchGetBuilds",
-            "userIdentity": {
-                "principalId": "AROAIKVHARSIUDMLTQCWC:1551581985580",
-                "accessKeyId": "ASIATHDYSISXIVXRLDEH",
-                "invokedBy": "codepipeline.amazonaws.com",
-                "sessionContext": {
-                    "sessionIssuer": {
-                        "userName": "devopsPipelineRole",
-                        "type": "Role",
-                        "arn": "arn:aws:iam::221443671214:role/service-role/devopsPipelineRole",
-                        "principalId": "AROAIKVHARSIUDMLTQCWC",
-                        "accountId": "221443671214"
-                    },
-                    "attributes": {
-                        "creationDate": "2019-03-03T02:59:45Z",
-                        "mfaAuthenticated": "false"
-                    }
-                },
-                "type": "AssumedRole",
-                "arn": "arn:aws:sts::221443671214:assumed-role/devopsPipelineRole/1551581985580",
-                "accountId": "221443671214"
-            },
-            "eventSource": "codebuild.amazonaws.com",
-            "requestID": "66944b8e-3d60-11e9-a7a9-cd0971c55f7a",
-            "userAgent": "codepipeline.amazonaws.com",
-            "sourceIPAddress": "codepipeline.amazonaws.com"
-        },
-        "detail-type": "AWS API Call via CloudTrail",
-        "source": "aws.codebuild",
-        "version": "0",
-        "time": "2019-03-03T02:59:45Z",
-        "id": "1c569287-4156-d801-1f1a-a5ea9c9483b4",
-        "resources": []
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "eventVersion": "1.05",
-            "eventID": "c8c0d443-8a0a-4e1b-a434-0c2f71b6166b",
-            "eventTime": "2019-03-03T02:59:10Z",
-            "requestParameters": {
-                "actionName": "Approval",
-                "token": "1999f0c6-3a0b-4dff-9225-de294214bc20",
-                "pipelineName": "twooca-CD-sandbox",
-                "result": {
-                    "status": "Approved",
-                    "summary": "test"
-                },
-                "stageName": "Approval"
-            },
-            "eventType": "AwsApiCall",
-            "responseElements": {
-                "approvedAt": "Mar 3, 2019 2:59:10 AM"
-            },
-            "awsRegion": "ap-northeast-1",
-            "eventName": "PutApprovalResult",
-            "userIdentity": {
-                "userName": "suwa",
-                "principalId": "AIDAIB5XAW3WD6WSLHWPS",
-                "accessKeyId": "ASIATHDYSISXBL6N3443",
-                "invokedBy": "signin.amazonaws.com",
-                "sessionContext": {
-                    "attributes": {
-                        "creationDate": "2019-03-02T17:03:52Z",
-                        "mfaAuthenticated": "false"
-                    }
-                },
-                "type": "IAMUser",
-                "arn": "arn:aws:iam::221443671214:user/suwa",
-                "accountId": "221443671214"
-            },
-            "eventSource": "codepipeline.amazonaws.com",
-            "requestID": "5e9fc451-892e-494a-9f5d-cb842d1de53a",
-            "userAgent": "signin.amazonaws.com",
-            "sourceIPAddress": "111.98.107.97"
-        },
-        "detail-type": "AWS API Call via CloudTrail",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T02:59:10Z",
-        "id": "01ddd892-d6dd-4c2d-3dde-40578476b22f",
-        "resources": []
-    }
+    "detail-type": "AWS API Call via CloudTrail",
+    "source": "aws.codepipeline",
+    "version": "0",
+    "time": "2019-03-06T15:34:13Z",
+    "id": "c704448b-67c9-e949-783a-b59d5897bc6c",
+    "resources": []
+  }
 ]

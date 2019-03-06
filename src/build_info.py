@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+from time import sleep
+import random
 import json
 import logging
 #logger = logging.getLogger()
@@ -58,6 +60,11 @@ class BuildInfo(object):
                 state = event['detail']['state']
                 if state == 'STARTED':
                     build_info.isStarted = True
+            # ステージ開始時は、同時実行を裂けるために少し待つ
+            if event['detail-type'] == "CodePipeline Stage Execution State Change":
+                state = event['detail']['state']
+                if state == 'STARTED':
+                    sleep(random.random())
             return build_info
 
         # if event['source'] == "aws.codebuild":
