@@ -29,6 +29,11 @@ class MessageBuilder(object):
                 "title" : build_info.pipeline,
                 "value" : "UNKNOWN",
                 "short" : True
+            },
+            {
+                "title": "Stages",
+                "value": "",
+                "short": True
             }
         ]
 
