@@ -141,7 +141,9 @@ class MessageBuilder(object):
                 (cur_icon, cur_stage) = part.split(status_delimiter)
                 stage_dict[cur_stage] = cur_icon
 
-        stage_dict[stage] = STATE_ICONS[status]
+        # 完了ステータスの場合は上書きしない
+        if not is_status_already_completed(stage_dict.get(stage)):
+            stage_dict[stage] = STATE_ICONS[status]
 
         part_format = '%s' + status_delimiter + '%s'
         return stage_delimiter.join([part_format % (v, k) for (k, v) in stage_dict.items()])
@@ -194,6 +196,20 @@ class MessageBuilder(object):
                 "actions": self.actions
             }
         ]
+
+
+def is_status_already_completed(status_icon):
+    if status_icon is None:
+        return False
+
+    if status_icon == STATE_ICONS["SUCCEEDED"]:
+        return True
+    if status_icon == STATE_ICONS["FAILED"]:
+        return True
+    if status_icon == STATE_ICONS["CANCELED"]:
+        return True
+
+    return False
 
 
 # https://docs.aws.amazon.com/codepipeline/latest/userguide/detect-state-changes-cloudwatch-events.html    
