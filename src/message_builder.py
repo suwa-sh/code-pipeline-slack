@@ -52,8 +52,13 @@ class MessageBuilder(object):
         if 'revisionUrl' in rev:
             url = rev['revisionUrl']
             commit = rev['revisionId'][:7]
-            raw_message = rev['revisionSummary']
-            message = raw_message[:raw_message.find('\n')].encode('utf-8')
+            message = rev['revisionSummary']
+            # 複数行の場合、リンクにならないので改行文字まででcut
+            line_sp_pos = message.find('\n')
+            if line_sp_pos > 0:
+                message = message[:line_sp_pos]
+            message = message.encode('utf-8')
+
             self.fields.append({
                 "title": "Revision",
                 "value": "<{}|{}: {}>".format(url, commit, message),
