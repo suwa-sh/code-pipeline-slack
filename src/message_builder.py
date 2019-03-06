@@ -13,10 +13,10 @@ class MessageBuilder(object):
         self.buildInfo = build_info
         self.actions = []
         self.messageId = None
-        self.isClear = False
+        self.isStarted = False
 
+        logger.info("MessageBuilder#__init__ build_info:{}, message:{}".format(vars(build_info), json.dumps(message)))
         if message:
-            # logger.info("message: {}".format(json.dumps(message, indent=2)))
             att = message['attachments'][0]
             self.fields = att['fields']
             self.actions = att.get('actions', [])
@@ -24,11 +24,18 @@ class MessageBuilder(object):
             return
 
         # logger.info("Actions {}".format(self.actions))
-        self.fields = [{
-            "title" : build_info.pipeline,
-            "value" : "UNKNOWN",
-            "short" : True
-        }]
+        self.fields = [
+            {
+                "title" : build_info.pipeline,
+                "value" : "UNKNOWN",
+                "short" : True
+            },
+            {
+                "title": "Stages",
+                "value": "",
+                "short": True
+            }
+        ]
 
     def hasField(self, name):
         return len([f for f in self.fields if f['title'] == name]) > 0
@@ -45,7 +52,13 @@ class MessageBuilder(object):
         if 'revisionUrl' in rev:
             url = rev['revisionUrl']
             commit = rev['revisionId'][:7]
-            message = rev['revisionSummary'].encode('utf-8')
+            message = rev['revisionSummary']
+            # 複数行の場合、リンクにならないので改行文字まででcut
+            line_sp_pos = message.find('\n')
+            if line_sp_pos > 0:
+                message = message[:line_sp_pos]
+            message = message.encode('utf-8')
+
             self.fields.append({
                 "title": "Revision",
                 "value": "<{}|{}: {}>".format(url, commit, message),
@@ -128,7 +141,9 @@ class MessageBuilder(object):
                 (cur_icon, cur_stage) = part.split(status_delimiter)
                 stage_dict[cur_stage] = cur_icon
 
-        stage_dict[stage] = STATE_ICONS[status]
+        # 完了ステータスの場合は上書きしない
+        if not is_status_already_completed(stage_dict.get(stage)):
+            stage_dict[stage] = STATE_ICONS[status]
 
         part_format = '%s' + status_delimiter + '%s'
         return stage_delimiter.join([part_format % (v, k) for (k, v) in stage_dict.items()])
@@ -137,13 +152,15 @@ class MessageBuilder(object):
         if event['detail-type'] == "CodePipeline Pipeline Execution State Change":
             state = event['detail']['state']
             self.fields[0]['value'] = state
-            if state == 'CLEAR':
-                self.isClear = True
+            if state == 'STARTED':
+                self.isStarted = True
+            return
 
         if event['detail-type'] == "CodePipeline Stage Execution State Change":
             stage = event['detail']['stage']
             state = event['detail']['state']
             self.updatePipelineEventStage(stage, state)
+            return
 
         if event['detail-type'] == "CodePipeline Action Execution State Change":
             stage = event['detail']['stage']
@@ -154,6 +171,9 @@ class MessageBuilder(object):
             provider = event['detail']['type']['provider']
             action_state = event['detail']['state']
             self.updatePipelineEventAction(action, provider, action_state)
+            return
+
+        raise ValueError('event.detail-type:' + event['detail-type'] + ' is not supported.')
 
 
     def updatePipelineEventStage(self, stage, state):
@@ -162,7 +182,7 @@ class MessageBuilder(object):
 
     def updatePipelineEventAction(self, action, provider, state):
         # TODO 未実装
-        logger.info("{} action={}, provider={}, state={}".format(__name__, action, provider, state))
+        logger.info("updatePipelineEventAction action={}, provider={}, state={}".format(__name__, action, provider, state))
 
     def color(self):
         return STATE_COLORS.get(self.pipelineStatus(), '#eee')
@@ -176,6 +196,20 @@ class MessageBuilder(object):
                 "actions": self.actions
             }
         ]
+
+
+def is_status_already_completed(status_icon):
+    if status_icon is None:
+        return False
+
+    if status_icon == STATE_ICONS["SUCCEEDED"]:
+        return True
+    if status_icon == STATE_ICONS["FAILED"]:
+        return True
+    if status_icon == STATE_ICONS["CANCELED"]:
+        return True
+
+    return False
 
 
 # https://docs.aws.amazon.com/codepipeline/latest/userguide/detect-state-changes-cloudwatch-events.html    

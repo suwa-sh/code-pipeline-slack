@@ -1,12 +1,21 @@
 [
     {
-        "source": "aws.codepipeline",
-        "detail-type": "CodePipeline Pipeline Execution State Change",
+        "account": "221443671214",
+        "region": "ap-northeast-1",
         "detail": {
             "execution-id": "45ec171d-f9bf-4ca9-a604-041df5a7e10c",
             "pipeline": "twooca-CD-sandbox",
-            "state": "CLEAR"
-        }
+            "version": 12,
+            "state": "STARTED"
+        },
+        "detail-type": "CodePipeline Pipeline Execution State Change",
+        "source": "aws.codepipeline",
+        "version": "0",
+        "time": "2019-03-03T02:58:28Z",
+        "id": "78e9d89f-ba28-af2b-d71f-0228dc620ab1",
+        "resources": [
+            "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
+        ]
     },
     {
         "account": "221443671214",
@@ -31,24 +40,6 @@
         "version": "0",
         "time": "2019-03-03T02:58:33Z",
         "id": "0f5e386a-15e2-8d80-b5e2-acab857bed70",
-        "resources": [
-            "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
-        ]
-    },
-    {
-        "account": "221443671214",
-        "region": "ap-northeast-1",
-        "detail": {
-            "execution-id": "45ec171d-f9bf-4ca9-a604-041df5a7e10c",
-            "pipeline": "twooca-CD-sandbox",
-            "version": 12,
-            "state": "STARTED"
-        },
-        "detail-type": "CodePipeline Pipeline Execution State Change",
-        "source": "aws.codepipeline",
-        "version": "0",
-        "time": "2019-03-03T02:58:28Z",
-        "id": "78e9d89f-ba28-af2b-d71f-0228dc620ab1",
         "resources": [
             "arn:aws:codepipeline:ap-northeast-1:221443671214:twooca-CD-sandbox"
         ]
