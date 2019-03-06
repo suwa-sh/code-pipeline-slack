@@ -121,13 +121,18 @@ def processCodeBuild(event):
 def process(event):
     if event['source'] == "aws.codepipeline":
         processCodePipeline(event)
+        return
     if event['source'] == "aws.codebuild":
         processCodeBuild(event)
+        return
+    logger.warning('event.source:' + event['source'] + ' is not supported.')
+
 
 
 def run(event, context):
+    print(json.dumps(event))
     logger.info("run")
-    logger.info("{}".format(json.dumps(event, default=str)))
+    logger.info("{}".format(json.dumps(event)))
     # logger.info("context")
     # logger.info("{}".format(json.dumps(context, default=str)))
     process(event)

@@ -13,10 +13,10 @@ class MessageBuilder(object):
         self.buildInfo = build_info
         self.actions = []
         self.messageId = None
-        self.isClear = False
+        self.isStarted = False
 
+        logger.info("MessageBuilder#__init__ build_info:{}, message:{}".format(vars(build_info), json.dumps(message)))
         if message:
-            # logger.info("message: {}".format(json.dumps(message, indent=2)))
             att = message['attachments'][0]
             self.fields = att['fields']
             self.actions = att.get('actions', [])
@@ -24,11 +24,13 @@ class MessageBuilder(object):
             return
 
         # logger.info("Actions {}".format(self.actions))
-        self.fields = [{
-            "title" : build_info.pipeline,
-            "value" : "UNKNOWN",
-            "short" : True
-        }]
+        self.fields = [
+            {
+                "title" : build_info.pipeline,
+                "value" : "UNKNOWN",
+                "short" : True
+            }
+        ]
 
     def hasField(self, name):
         return len([f for f in self.fields if f['title'] == name]) > 0
@@ -137,13 +139,15 @@ class MessageBuilder(object):
         if event['detail-type'] == "CodePipeline Pipeline Execution State Change":
             state = event['detail']['state']
             self.fields[0]['value'] = state
-            if state == 'CLEAR':
-                self.isClear = True
+            if state == 'STARTED':
+                self.isStarted = True
+            return
 
         if event['detail-type'] == "CodePipeline Stage Execution State Change":
             stage = event['detail']['stage']
             state = event['detail']['state']
             self.updatePipelineEventStage(stage, state)
+            return
 
         if event['detail-type'] == "CodePipeline Action Execution State Change":
             stage = event['detail']['stage']
@@ -154,6 +158,9 @@ class MessageBuilder(object):
             provider = event['detail']['type']['provider']
             action_state = event['detail']['state']
             self.updatePipelineEventAction(action, provider, action_state)
+            return
+
+        raise ValueError('event.detail-type:' + event['detail-type'] + ' is not supported.')
 
 
     def updatePipelineEventStage(self, stage, state):
@@ -162,7 +169,7 @@ class MessageBuilder(object):
 
     def updatePipelineEventAction(self, action, provider, state):
         # TODO 未実装
-        logger.info("{} action={}, provider={}, state={}".format(__name__, action, provider, state))
+        logger.info("updatePipelineEventAction action={}, provider={}, state={}".format(__name__, action, provider, state))
 
     def color(self):
         return STATE_COLORS.get(self.pipelineStatus(), '#eee')

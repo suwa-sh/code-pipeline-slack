@@ -10,6 +10,7 @@ class CodeBuildInfo(object):
     def __init__(self, pipeline, build_id):
         self.pipeline = pipeline
         self.buildId = build_id
+        self.isStarted = False
 
     @staticmethod
     def from_event(event):
@@ -31,6 +32,7 @@ class BuildInfo(object):
         self.executionId = execution_id
         self.pipeline = pipeline
         self.revisionInfo = status
+        self.isStarted = False
 
     def has_revision_info(self):
 #        logger.info(__name__)
@@ -47,11 +49,16 @@ class BuildInfo(object):
         if event['source'] == "aws.codepipeline":
             detail = event['detail']
 
-            stage = detail.get('stage', None)
-            state = detail.get('state', None)
+#            stage = detail.get('stage', None)
+#            state = detail.get('state', None)
 #            logger.info("{} stage={}, state={}, detail=".format(__name__, stage, state))
 
-            return BuildInfo(detail['execution-id'], detail['pipeline'], None)
+            build_info = BuildInfo(detail['execution-id'], detail['pipeline'], None)
+            if event['detail-type'] == "CodePipeline Pipeline Execution State Change":
+                state = event['detail']['state']
+                if state == 'STARTED':
+                    build_info.isStarted = True
+            return build_info
 
         # if event['source'] == "aws.codebuild":
             # logger.info(json.dumps(event, indent=2))
