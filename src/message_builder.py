@@ -211,8 +211,9 @@ def is_status_already_completed(status):
 
     if status == "SUCCEEDED":
         return True
-    if status == "FAILED":
-        return True
+# rerunでの更新を考慮
+#    if status == "FAILED":
+#        return True
     if status == "CANCELED":
         return True
 
@@ -225,8 +226,9 @@ def is_status_icon_already_completed(status_icon):
 
     if status_icon == STATE_ICONS["SUCCEEDED"]:
         return True
-    if status_icon == STATE_ICONS["FAILED"]:
-        return True
+# rerunでの更新を考慮
+#    if status_icon == STATE_ICONS["FAILED"]:
+#        return True
     if status_icon == STATE_ICONS["CANCELED"]:
         return True
 
